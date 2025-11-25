@@ -1,0 +1,455 @@
+@prefix : <http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10> rdf:type owl:Ontology ;
+    owl:imports <../../robot.owx> .
+
+:bench_1 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A sturdy wooden bench with dark oak finish, perfect for waiting comfortably" ;
+    :objectIsInSpace :lobby_24 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:bottle_2 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A reusable plastic water bottle filled with filtered water" ;
+    :objectIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand .
+
+:bottle_3 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A green glass shampoo bottle with organic lavender scent" ;
+    :objectIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand .
+
+:bottle_4 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A clear glass water bottle, belongs to Sarah" ;
+    :objectIsInSpace :bedroom_7 ;
+    :affords :Affordance_PickupOneHand .
+
+:bottle_5 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A blue plastic soap dispenser with mint-scented hand soap" ;
+    :objectIsInSpace :bathroom_5 ;
+    :affords :Affordance_PickupOneHand .
+
+:cup_6 rdf:type :Artifact ;
+    :category "cup" ;
+    :description "A white ceramic coffee cup with delicate floral pattern, part of the family's tea set" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:cup_7 rdf:type :Artifact ;
+    :category "cup" ;
+    :description "A red ceramic mug with 'World's Best Dad' inscription, belongs to John" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bowl_8 rdf:type :Artifact ;
+    :category "bowl" ;
+    :description "A large porcelain mixing bowl with blue and white Chinese patterns" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bowl_9 rdf:type :Artifact ;
+    :category "bowl" ;
+    :description "A wooden salad bowl with natural walnut finish, handcrafted artisan piece" ;
+    :objectIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:chair_10 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "An ergonomic black leather office chair with adjustable height and lumbar support" ;
+    :objectIsInSpace :home_office_19 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_11 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A small pink plastic chair for kids, belongs to Emma" ;
+    :objectIsInSpace :childs_room_10 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_12 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A blue wooden chair with cartoon character stickers, Tommy's favorite seat" ;
+    :objectIsInSpace :childs_room_10 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_13 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A yellow plastic kids chair with safety backrest, used for arts and crafts" ;
+    :objectIsInSpace :childs_room_10 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_14 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A comfortable beige fabric armchair with floral cushions, perfect for reading" ;
+    :objectIsInSpace :living_room_21 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_15 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A modern grey upholstered dining chair with sleek chrome legs" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_16 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A vintage wooden dining chair with red velvet cushion, family heirloom passed down three generations" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_17 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A sleek black metal chair with minimalist Scandinavian design" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_18 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A cream-colored fabric chair with wooden armrests, very comfortable for long conversations" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_19 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A sturdy oak dining chair with hand-carved backrest, traditional craftsmanship" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_20 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A dark walnut dining chair with genuine leather seat, elegant and durable" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_21 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A traditional wooden dining chair with cushioned seat in burgundy fabric" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_22 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A classic oak chair with spindle back design, comfortable for extended sitting" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_23 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A white wicker vanity chair with soft pink cushion, used for grooming" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_24 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A folding metal chair with grey padding, portable and space-saving" ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_25 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A bamboo chair with natural finish, eco-friendly and lightweight" ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_26 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A soft purple fabric chair with rounded back, used for reading before sleep" ;
+    :objectIsInSpace :bedroom_9 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_27 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A teal velvet accent chair with gold legs, stylish statement piece" ;
+    :objectIsInSpace :living_room_21 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_28 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A brown leather recliner chair with extendable footrest, perfect for relaxing" ;
+    :objectIsInSpace :living_room_23 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:chair_29 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A modern white plastic chair with chrome frame, stackable design" ;
+    :objectIsInSpace :lobby_24 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:couch_30 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A spacious grey fabric sofa with deep cushions, perfect for family gatherings" ;
+    :objectIsInSpace :living_room_21 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:couch_31 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A luxurious brown leather sofa with reclining features, John's favorite spot for relaxing" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:couch_32 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A cozy beige linen sofa with decorative throw pillows, comfortable for napping" ;
+    :objectIsInSpace :living_room_23 ;
+    :affords :Affordance_Sit ;
+    :affords :Affordance_PlaceOn .
+
+:potted_plant_33 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A large fiddle leaf fig tree in a rustic terracotta pot, adds vibrant greenery" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupTwoHands .
+
+:potted_plant_34 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A snake plant in a white ceramic pot, low maintenance and air purifying" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_35 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A small succulent garden in a decorative blue glazed pot" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_36 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A flowering orchid with delicate purple blooms in a glass vase" ;
+    :objectIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_37 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A hanging pothos plant with long trailing vines and heart-shaped leaves" ;
+    :objectIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_38 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A small lucky bamboo plant growing in water, believed to bring fortune" ;
+    :objectIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_39 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A peace lily with white flowers, known for air purifying properties" ;
+    :objectIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_40 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A tall money tree with braided trunk in a black planter, decorative entrance plant" ;
+    :objectIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupTwoHands .
+
+:potted_plant_41 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A spider plant with baby plantlets hanging down, easy to propagate" ;
+    :objectIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_42 rdf:type :Artifact ;
+    :category "potted_plant" ;
+    :description "A rubber plant with glossy dark green leaves in a grey ceramic pot" ;
+    :objectIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand .
+
+:bed_43 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A twin-size bed with race car themed bedding, Emma's cozy sleeping space" ;
+    :objectIsInSpace :childs_room_10 ;
+    :affords :Affordance_PlaceOn .
+
+:bed_44 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A queen-size bed with memory foam mattress and navy blue sheets, belongs to Sarah" ;
+    :objectIsInSpace :bedroom_7 ;
+    :affords :Affordance_PlaceOn .
+
+:bed_45 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A king-size platform bed with white linen bedding and tufted headboard" ;
+    :objectIsInSpace :bedroom_9 ;
+    :affords :Affordance_PlaceOn .
+
+:bed_46 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A full-size bed with quilted floral comforter, comfortable guest bed" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PlaceOn .
+
+:bed_47 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A double bed with orthopedic mattress and grey bedding, ideal for back support" ;
+    :objectIsInSpace :bedroom_8 ;
+    :affords :Affordance_PlaceOn .
+
+:dining_table_48 rdf:type :Artifact ;
+    :category "dining_table" ;
+    :description "A large solid oak dining table that seats eight people, center of family gatherings" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_PlaceOn .
+
+:toilet_49 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A modern dual-flush white porcelain toilet, water-efficient design" ;
+    :objectIsInSpace :bathroom_3 .
+
+:toilet_50 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A compact toilet with soft-close seat, space-saving design" ;
+    :objectIsInSpace :bathroom_5 .
+
+:toilet_51 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A standard white ceramic toilet with chrome flush handle, well-maintained" ;
+    :objectIsInSpace :bathroom_1 .
+
+:tv_52 rdf:type :Artifact ;
+    :category "tv" ;
+    :description "A 55-inch Samsung smart TV with 4K display and voice control, used for streaming and gaming" ;
+    :objectIsInSpace :living_room_21 ;
+    :affords :Affordance_Power .
+
+:oven_53 rdf:type :Artifact ;
+    :category "oven" ;
+    :description "A stainless steel electric oven with convection feature, used for baking and roasting" ;
+    :objectIsInSpace :kitchen_20 ;
+    :isOpen "false"^^xsd:boolean ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:sink_54 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A white porcelain bathroom sink with chrome faucet, modern and clean design" ;
+    :objectIsInSpace :bathroom_3 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_55 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A vessel sink made of tempered glass with waterfall faucet, elegant fixture" ;
+    :objectIsInSpace :bathroom_5 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_56 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A double vanity sink in marble with gold-finish faucets, luxury bathroom feature" ;
+    :objectIsInSpace :bathroom_5 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_57 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A round white ceramic sink with brass fixtures, vintage style design" ;
+    :objectIsInSpace :bathroom_4 ;
+    :affords :Affordance_PlaceIn .
+
+:refrigerator_58 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A large stainless steel LG refrigerator with ice maker and water dispenser, family's main food storage" ;
+    :objectIsInSpace :kitchen_20 ;
+    :isOpen "false"^^xsd:boolean ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceIn .
+
+:book_59 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A hardcover book 'Introduction to Machine Learning' with yellow highlights and sticky notes, John's work reference" ;
+    :objectIsInSpace :home_office_19 ;
+    :affords :Affordance_PickupOneHand .
+
+:book_60 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A mystery novel 'Gone Girl' with bookmark halfway through, Sarah's current read" ;
+    :objectIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand .
+
+:book_61 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A cookbook 'Mediterranean Delights' with stained pages showing signs of frequent use" ;
+    :objectIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand .
+
+:book_62 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A vintage leather-bound poetry collection with gilt edges, inherited from grandmother" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand .
+
+:book_63 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A science fiction novel 'Dune' with worn paperback cover, frequently re-read favorite" ;
+    :objectIsInSpace :bedroom_7 ;
+    :affords :Affordance_PickupOneHand .
+
+:vase_64 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A tall crystal vase with fresh yellow sunflowers, brightens the room" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand .
+
+:vase_65 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A blue ceramic vase with hand-painted floral patterns, decorative art piece" ;
+    :objectIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand .
+
+:vase_66 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A small glass vase with dried lavender, adds pleasant natural scent" ;
+    :objectIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand .
+
+:vase_67 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A modern white minimalist vase with red roses, anniversary gift from John" ;
+    :objectIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand .
+
+:vase_68 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "An antique porcelain vase with gold trim and intricate designs, valuable family heirloom" ;
+    :objectIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand .
+
+:left_hand rdf:type :Hand .
+
+:right_hand rdf:type :Hand .
+
+:robot1 rdf:type :Robot ;
+    :description "Main service robot in Darden building" ;
+    :robotIsInSpace :living_room_23 ;
+    :hasHand :left_hand ;
+    :hasHand :right_hand .
+

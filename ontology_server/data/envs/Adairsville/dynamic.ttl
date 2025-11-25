@@ -1,0 +1,372 @@
+@prefix : <http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10> rdf:type owl:Ontology ;
+    owl:imports <../../robot.owx> .
+
+:cake_1 rdf:type :Artifact ;
+    :category "cake" ;
+    :description "A cake, in staircase_17" ;
+    :objectIsInSpace :staircase_17 ;
+    :affords :Affordance_Eat .
+
+:oven_2 rdf:type :Artifact ;
+    :category "oven" ;
+    :description "A oven, in kitchen_13" ;
+    :objectIsInSpace :kitchen_13 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:sink_3 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_1" ;
+    :objectIsInSpace :bathroom_1 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_4 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_2" ;
+    :objectIsInSpace :bathroom_2 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_5 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in kitchen_13" ;
+    :objectIsInSpace :kitchen_13 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_6 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_3" ;
+    :objectIsInSpace :bathroom_3 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_7 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_4" ;
+    :objectIsInSpace :bathroom_4 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_8 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_4" ;
+    :objectIsInSpace :bathroom_4 ;
+    :affords :Affordance_PlaceIn .
+
+:refrigerator_9 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in kitchen_13" ;
+    :objectIsInSpace :kitchen_13 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_10 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in bedroom_5" ;
+    :objectIsInSpace :bedroom_5 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:bottle_11 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, in corridor_10" ;
+    :objectIsInSpace :corridor_10 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:vase_12 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in dining_room_11" ;
+    :objectIsInSpace :dining_room_11 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_13 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in living_rooom_14" ;
+    :objectIsInSpace :living_rooom_14 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_14 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_15 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bench_16 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bench_17 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, in staircase_17" ;
+    :objectIsInSpace :staircase_17 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bench_18 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:toilet_19 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, in bathroom_1" ;
+    :objectIsInSpace :bathroom_1 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:toilet_20 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, in bathroom_2" ;
+    :objectIsInSpace :bathroom_2 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:toilet_21 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, in bathroom_3" ;
+    :objectIsInSpace :bathroom_3 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:toilet_22 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, in bathroom_4" ;
+    :objectIsInSpace :bathroom_4 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:chair_23 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, in home_office_12" ;
+    :objectIsInSpace :home_office_12 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_24 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, in living_rooom_14" ;
+    :objectIsInSpace :living_rooom_14 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_25 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, in dining_room_11" ;
+    :objectIsInSpace :dining_room_11 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_26 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_27 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_28 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:couch_29 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A couch, in living_rooom_14" ;
+    :objectIsInSpace :living_rooom_14 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:potted_plant_30 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in living_rooom_14" ;
+    :objectIsInSpace :living_rooom_14 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_31 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in living_rooom_14" ;
+    :objectIsInSpace :living_rooom_14 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_32 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in dining_room_11" ;
+    :objectIsInSpace :dining_room_11 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_33 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in kitchen_13" ;
+    :objectIsInSpace :kitchen_13 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_34 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in bedroom_5" ;
+    :objectIsInSpace :bedroom_5 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_35 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in bedroom_5" ;
+    :objectIsInSpace :bedroom_5 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_36 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in bedroom_5" ;
+    :objectIsInSpace :bedroom_5 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_37 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand .
+
+:bed_38 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, in living_rooom_14" ;
+    :objectIsInSpace :living_rooom_14 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_39 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, in bedroom_5" ;
+    :objectIsInSpace :bedroom_5 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_40 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_41 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, in bathroom_3" ;
+    :objectIsInSpace :bathroom_3 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:tv_42 rdf:type :Artifact ;
+    :category "tv" ;
+    :description "A tv, in home_office_12" ;
+    :objectIsInSpace :home_office_12 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:tv_43 rdf:type :Artifact ;
+    :category "tv" ;
+    :description "A tv, in home_office_12" ;
+    :objectIsInSpace :home_office_12 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:tv_44 rdf:type :Artifact ;
+    :category "tv" ;
+    :description "A tv, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:safe_45 rdf:type :Artifact ;
+    :category "safe" ;
+    :description "A safe, made of metal, tactile texture: smooth, visual texture: metallic, in home_office_12" ;
+    :objectIsInSpace :home_office_12 ;
+    :requiresKey :key_46 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean ;
+    :isLocked "true"^^xsd:boolean .
+
+:key_46 rdf:type :Artifact ;
+    :category "key" ;
+    :description "A key, made of metal, tactile texture: smooth, visual texture: metallic, in bedroom_6" ;
+    :objectIsInSpace :bedroom_6 ;
+    :unlocks :safe_45 ;
+    :affords :Affordance_PickupOneHand .
+
+:safe_47 rdf:type :Artifact ;
+    :category "safe" ;
+    :description "A safe, made of metal, tactile texture: smooth, visual texture: metallic, in bedroom_5" ;
+    :objectIsInSpace :bedroom_5 ;
+    :requiresKey :key_48 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean ;
+    :isLocked "true"^^xsd:boolean .
+
+:key_48 rdf:type :Artifact ;
+    :category "key" ;
+    :description "A key, made of metal, tactile texture: smooth, visual texture: metallic, in corridor_9" ;
+    :objectIsInSpace :corridor_9 ;
+    :unlocks :safe_47 ;
+    :affords :Affordance_PickupOneHand .
+
+:left_hand rdf:type :Hand .
+
+:right_hand rdf:type :Hand .
+
+:robot1 rdf:type :Robot ;
+    :description "Main service robot in Adairsville building" ;
+    :robotIsInSpace :corridor_7 ;
+    :hasHand :left_hand ;
+    :hasHand :right_hand .

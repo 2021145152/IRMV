@@ -1,0 +1,287 @@
+@prefix : <http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10> rdf:type owl:Ontology ;
+    owl:imports <../../robot.owx> .
+
+:Darden rdf:type :Building .
+
+:Floor_A rdf:type :Storey ;
+    :storeyIsInBuilding :Darden .
+
+:Floor_B rdf:type :Storey ;
+    :storeyIsInBuilding :Darden .
+
+:Floor_C rdf:type :Storey ;
+    :storeyIsInBuilding :Darden .
+
+:bathroom_1 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 1 (bathroom) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:bathroom_2 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 2 (bathroom) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:bathroom_3 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 3 (bathroom) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:bathroom_4 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 4 (bathroom) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:bathroom_5 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 5 (bathroom) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:bedroom_6 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Room 6 (bedroom) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:bedroom_7 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Room 7 (bedroom) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:bedroom_8 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Room 8 (bedroom) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:bedroom_9 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Room 9 (bedroom) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:childs_room_10 rdf:type :Space ;
+    :category "childs_room" ;
+    :description "Room 10 (childs_room) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:closet_11 rdf:type :Space ;
+    :category "closet" ;
+    :description "Room 11 (closet) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:closet_12 rdf:type :Space ;
+    :category "closet" ;
+    :description "Room 12 (closet) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:closet_13 rdf:type :Space ;
+    :category "closet" ;
+    :description "Room 13 (closet) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:corridor_14 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 14 (corridor) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:corridor_15 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 15 (corridor) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:corridor_16 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 16 (corridor) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:corridor_17 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 17 (corridor) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:dining_room_18 rdf:type :Space ;
+    :category "dining_room" ;
+    :description "Room 18 (dining_room) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:home_office_19 rdf:type :Space ;
+    :category "home_office" ;
+    :description "Room 19 (home_office) in building Darden" ;
+    :spaceIsInStorey :Floor_C .
+
+:kitchen_20 rdf:type :Space ;
+    :category "kitchen" ;
+    :description "Room 20 (kitchen) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:living_room_21 rdf:type :Space ;
+    :category "living_room" ;
+    :description "Room 21 (living_room) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:living_room_22 rdf:type :Space ;
+    :category "living_room" ;
+    :description "Room 22 (living_room) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:living_room_23 rdf:type :Space ;
+    :category "living_room" ;
+    :description "Room 23 (living_room) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:lobby_24 rdf:type :Space ;
+    :category "lobby" ;
+    :description "Room 24 (lobby) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:staircase_25 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Room 25 (staircase) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:staircase_26 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Room 26 (staircase) in building Darden" ;
+    :spaceIsInStorey :Floor_B .
+
+:storage_room_27 rdf:type :Space ;
+    :category "storage_room" ;
+    :description "Room 27 (storage_room) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:storage_room_28 rdf:type :Space ;
+    :category "storage_room" ;
+    :description "Room 28 (storage_room) in building Darden" ;
+    :spaceIsInStorey :Floor_A .
+
+:opening_1 rdf:type :Opening ;
+    :isOpeningOf :dining_room_18 ;
+    :isOpeningOf :living_room_22 .
+
+:opening_2 rdf:type :Opening ;
+    :isOpeningOf :dining_room_18 ;
+    :isOpeningOf :kitchen_20 .
+
+:opening_3 rdf:type :Opening ;
+    :isOpeningOf :kitchen_20 ;
+    :isOpeningOf :living_room_23 .
+
+:opening_4 rdf:type :Opening ;
+    :isOpeningOf :corridor_17 ;
+    :isOpeningOf :home_office_19 .
+
+:door_5 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bedroom_6 ;
+    :isDoorOf :corridor_14 .
+
+:door_6 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_1 ;
+    :isDoorOf :corridor_14 .
+
+:door_7 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bedroom_7 ;
+    :isDoorOf :corridor_14 .
+
+:door_8 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bathroom_1 ;
+    :isDoorOf :bathroom_2 .
+
+:door_9 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :corridor_14 ;
+    :isDoorOf :living_room_21 .
+
+:door_10 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :storage_room_27 ;
+    :isDoorOf :storage_room_28 .
+
+:door_11 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :corridor_15 ;
+    :isDoorOf :storage_room_27 .
+
+:door_12 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :corridor_15 ;
+    :isDoorOf :living_room_21 .
+
+:door_13 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :living_room_22 ;
+    :isDoorOf :lobby_24 .
+
+:door_14 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :corridor_16 ;
+    :isDoorOf :living_room_23 .
+
+:door_15 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bathroom_3 ;
+    :isDoorOf :corridor_16 .
+
+:door_16 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_8 ;
+    :isDoorOf :corridor_16 .
+
+:door_17 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bedroom_8 ;
+    :isDoorOf :closet_11 .
+
+:door_18 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :childs_room_10 ;
+    :isDoorOf :corridor_17 .
+
+:door_19 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_9 ;
+    :isDoorOf :home_office_19 .
+
+:door_20 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_9 ;
+    :isDoorOf :closet_13 .
+
+:door_21 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_5 ;
+    :isDoorOf :bedroom_9 .
+
+:door_22 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_5 ;
+    :isDoorOf :closet_12 .
+
+:door_23 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_4 ;
+    :isDoorOf :corridor_17 .
+
+:stairs_24 rdf:type :Stairs ;
+    :isStairsOf :corridor_15 ;
+    :isStairsOf :staircase_25 .
+
+:stairs_25 rdf:type :Stairs ;
+    :isStairsOf :living_room_23 ;
+    :isStairsOf :staircase_26 .
+
+:stairs_26 rdf:type :Stairs ;
+    :isStairsOf :dining_room_18 ;
+    :isStairsOf :staircase_25 .
+
+:stairs_27 rdf:type :Stairs ;
+    :isStairsOf :home_office_19 ;
+    :isStairsOf :staircase_26 .
+

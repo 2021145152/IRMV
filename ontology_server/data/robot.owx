@@ -1,0 +1,1020 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/namh_woo/ontologies/2025/10/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/namh_woo/ontologies/2025/10/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/namh_woo/ontologies/2025/10/untitled-ontology-10/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Affordance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Container"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Door"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocomotionPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManipulationPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RobotPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affords"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#buildingHasStorey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canManipulate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#carries"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDoor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHand"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOpening"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPortal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStairs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStorey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#holds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAdjacentTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCarriedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConnectedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDoorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHeldBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInSpace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInStorey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInsideOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOntopOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOpeningOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPortalOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isStairsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresKey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#robotIsInSpace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unlocks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spaceHasObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spaceIsInStorey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#storeyIsInBuilding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supports"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isON"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isOpen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isOpenDoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_Eat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_Open"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_PickupOneHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_PickupTwoHands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_PlaceIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_PlaceOn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_Power"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affordance_Sit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#internal"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Container"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Artifact"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#affords"/>
+                <NamedIndividual IRI="#Affordance_PlaceIn"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Food"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Artifact"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#affords"/>
+                <NamedIndividual IRI="#Affordance_Eat"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Seat"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Artifact"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#affords"/>
+                <NamedIndividual IRI="#Affordance_Sit"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Surface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Artifact"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#affords"/>
+                <NamedIndividual IRI="#Affordance_PlaceOn"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Affordance"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Door"/>
+        <Class IRI="#Portal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hand"/>
+        <Class IRI="#ManipulationPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocomotionPart"/>
+        <Class IRI="#RobotPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManipulationPart"/>
+        <Class IRI="#RobotPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opening"/>
+        <Class IRI="#Portal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portal"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RobotPart"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seat"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Space"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stairs"/>
+        <Class IRI="#Portal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storey"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surface"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_Eat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_Open"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_PickupOneHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_PickupTwoHands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_PlaceIn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_PlaceOn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_Power"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Affordance"/>
+        <NamedIndividual IRI="#Affordance_Sit"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affords"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#buildingHasStorey"/>
+        <ObjectProperty IRI="#hasStorey"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#canManipulate"/>
+        <ObjectProperty IRI="#isAdjacentTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#carries"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDoor"/>
+        <ObjectProperty IRI="#hasPortal"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasObject"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOpening"/>
+        <ObjectProperty IRI="#hasPortal"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPathTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPortal"/>
+        <ObjectProperty IRI="#hasPathTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpace"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStairs"/>
+        <ObjectProperty IRI="#hasPortal"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAdjacentTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDoorOf"/>
+        <ObjectProperty IRI="#isPortalOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInSpace"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInStorey"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInsideOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOntopOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOpeningOf"/>
+        <ObjectProperty IRI="#isPortalOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPortalOf"/>
+        <ObjectProperty IRI="#hasPathTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isStairsOf"/>
+        <ObjectProperty IRI="#isPortalOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+        <ObjectProperty IRI="#isInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#robotIsInSpace"/>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#spaceHasObject"/>
+        <ObjectProperty IRI="#hasObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#spaceIsInStorey"/>
+        <ObjectProperty IRI="#isInStorey"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+        <ObjectProperty IRI="#hasSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supports"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#buildingHasStorey"/>
+        <ObjectProperty IRI="#storeyIsInBuilding"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#carries"/>
+        <ObjectProperty IRI="#isCarriedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#isInsideOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDoor"/>
+        <ObjectProperty IRI="#isDoorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOpening"/>
+        <ObjectProperty IRI="#isOpeningOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPortal"/>
+        <ObjectProperty IRI="#isPortalOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasStairs"/>
+        <ObjectProperty IRI="#isStairsOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#holds"/>
+        <ObjectProperty IRI="#isHeldBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isOntopOf"/>
+        <ObjectProperty IRI="#supports"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+        <ObjectProperty IRI="#spaceHasObject"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#spaceIsInStorey"/>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasPathTo"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isConnectedTo"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#contains"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isInsideOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isOntopOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#supports"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affords"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#buildingHasStorey"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canManipulate"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#carries"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDoor"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHand"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOpening"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPortal"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStairs"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStorey"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#holds"/>
+        <Class IRI="#Hand"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAdjacentTo"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCarriedBy"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDoorOf"/>
+        <Class IRI="#Door"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHeldBy"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInsideOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOntopOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOpeningOf"/>
+        <Class IRI="#Opening"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPortalOf"/>
+        <Class IRI="#Portal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isStairsOf"/>
+        <Class IRI="#Stairs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresKey"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#robotIsInSpace"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#spaceHasObject"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unlocks"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#spaceIsInStorey"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+        <Class IRI="#Storey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#storeyIsInBuilding"/>
+        <Class IRI="#Storey"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affords"/>
+        <Class IRI="#Affordance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#buildingHasStorey"/>
+        <Class IRI="#Storey"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canManipulate"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#carries"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDoor"/>
+        <Class IRI="#Door"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHand"/>
+        <Class IRI="#Hand"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasObject"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOpening"/>
+        <Class IRI="#Opening"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPortal"/>
+        <Class IRI="#Portal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStairs"/>
+        <Class IRI="#Stairs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStorey"/>
+        <Class IRI="#Storey"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#holds"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAdjacentTo"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCarriedBy"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConnectedTo"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDoorOf"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHeldBy"/>
+        <Class IRI="#Hand"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInStorey"/>
+        <Class IRI="#Storey"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInsideOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOntopOf"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOpeningOf"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPortalOf"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isStairsOf"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#objectIsInSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresKey"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#robotIsInSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#spaceHasObject"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#unlocks"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#spaceIsInStorey"/>
+        <Class IRI="#Storey"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+        <Class IRI="#Space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#storeyIsInBuilding"/>
+        <Class IRI="#Building"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#buildingHasStorey"/>
+            <ObjectProperty IRI="#storeyHasSpace"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#buildingHasStorey"/>
+            <ObjectProperty IRI="#storeyHasSpace"/>
+            <ObjectProperty IRI="#spaceHasObject"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#contains"/>
+            <ObjectProperty IRI="#artifactIsInSpace"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasHand"/>
+            <ObjectProperty IRI="#holds"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#carries"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasPortal"/>
+            <ObjectProperty IRI="#isPortalOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isConnectedTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isInsideOf"/>
+            <ObjectProperty IRI="#artifactIsInSpace"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isOntopOf"/>
+            <ObjectProperty IRI="#artifactIsInSpace"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isPortalOf"/>
+            <ObjectProperty IRI="#spaceIsInStorey"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isInStorey"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#objectIsInSpace"/>
+            <ObjectProperty IRI="#spaceIsInStorey"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isInStorey"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#storeyHasSpace"/>
+            <ObjectProperty IRI="#hasDoor"/>
+            <ObjectProperty IRI="#isDoorOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#storeyHasSpace"/>
+            <ObjectProperty IRI="#hasOpening"/>
+            <ObjectProperty IRI="#isOpeningOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#storeyHasSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#storeyHasSpace"/>
+            <ObjectProperty IRI="#spaceHasObject"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasObject"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#supports"/>
+            <ObjectProperty IRI="#artifactIsInSpace"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#carries"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#robotIsInSpace"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#artifactIsInSpace"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isON"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isOpen"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isOpenDoor"/>
+        <DataProperty IRI="#isOpen"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#category"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isON"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isOpen"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isOpenDoor"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI="#category"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isON"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isOpen"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isOpenDoor"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#internal"/>
+        <IRI>#buildingHasStorey</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#internal"/>
+        <IRI>#objectIsInSpace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#internal"/>
+        <IRI>#spaceHasObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#internal"/>
+        <IRI>#spaceIsInStorey</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#internal"/>
+        <IRI>#storeyHasSpace</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#internal"/>
+        <IRI>#storeyIsInBuilding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

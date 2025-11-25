@@ -1,0 +1,183 @@
+@prefix : <http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10> rdf:type owl:Ontology ;
+    owl:imports <../../robot.owx> .
+
+:Adairsville rdf:type :Building .
+
+:Floor_A rdf:type :Storey ;
+    :storeyIsInBuilding :Adairsville .
+
+:Floor_B rdf:type :Storey ;
+    :storeyIsInBuilding :Adairsville .
+
+:Floor_C rdf:type :Storey ;
+    :storeyIsInBuilding :Adairsville .
+
+:bathroom_1 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 1 (bathroom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_A .
+
+:bathroom_2 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 2 (bathroom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:bathroom_3 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 3 (bathroom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_C .
+
+:bathroom_4 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Room 4 (bathroom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_C .
+
+:bedroom_5 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Room 5 (bedroom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_C .
+
+:bedroom_6 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Room 6 (bedroom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_C .
+
+:corridor_7 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 7 (corridor) in building Adairsville" ;
+    :spaceIsInStorey :Floor_A .
+
+:corridor_8 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 8 (corridor) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:corridor_9 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 9 (corridor) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:corridor_10 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Room 10 (corridor) in building Adairsville" ;
+    :spaceIsInStorey :Floor_C .
+
+:dining_room_11 rdf:type :Space ;
+    :category "dining_room" ;
+    :description "Room 11 (dining_room) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:home_office_12 rdf:type :Space ;
+    :category "home_office" ;
+    :description "Room 12 (home_office) in building Adairsville" ;
+    :spaceIsInStorey :Floor_A .
+
+:kitchen_13 rdf:type :Space ;
+    :category "kitchen" ;
+    :description "Room 13 (kitchen) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:living_rooom_14 rdf:type :Space ;
+    :category "living_rooom" ;
+    :description "Room 14 (living_rooom) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:staircase_15 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Room 15 (staircase) in building Adairsville" ;
+    :spaceIsInStorey :Floor_A .
+
+:staircase_16 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Room 16 (staircase) in building Adairsville" ;
+    :spaceIsInStorey :Floor_B .
+
+:staircase_17 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Room 17 (staircase) in building Adairsville" ;
+    :spaceIsInStorey :Floor_C .
+
+:opening_1 rdf:type :Opening ;
+    :isOpeningOf :kitchen_13 ;
+    :isOpeningOf :living_rooom_14 .
+
+:opening_2 rdf:type :Opening ;
+    :isOpeningOf :corridor_9 ;
+    :isOpeningOf :dining_room_11 .
+
+:door_3 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_1 ;
+    :isDoorOf :home_office_12 .
+
+:door_4 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :corridor_7 ;
+    :isDoorOf :home_office_12 .
+
+:door_5 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_2 ;
+    :isDoorOf :corridor_9 .
+
+:door_6 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :corridor_9 ;
+    :isDoorOf :kitchen_13 .
+
+:door_7 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :corridor_8 ;
+    :isDoorOf :living_rooom_14 .
+
+:door_8 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :corridor_8 ;
+    :isDoorOf :dining_room_11 .
+
+:door_9 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_4 ;
+    :isDoorOf :bedroom_6 .
+
+:door_10 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_6 ;
+    :isDoorOf :corridor_10 .
+
+:door_11 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_5 ;
+    :isDoorOf :corridor_10 .
+
+:door_12 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_3 ;
+    :isDoorOf :bedroom_5 .
+
+:stairs_13 rdf:type :Stairs ;
+    :isStairsOf :corridor_7 ;
+    :isStairsOf :staircase_15 .
+
+:stairs_14 rdf:type :Stairs ;
+    :isStairsOf :corridor_8 ;
+    :isStairsOf :staircase_16 .
+
+:stairs_15 rdf:type :Stairs ;
+    :isStairsOf :corridor_10 ;
+    :isStairsOf :staircase_17 .
+
+:stairs_16 rdf:type :Stairs ;
+    :isStairsOf :corridor_8 ;
+    :isStairsOf :staircase_15 .
+
+:stairs_17 rdf:type :Stairs ;
+    :isStairsOf :corridor_10 ;
+    :isStairsOf :staircase_16 .
+

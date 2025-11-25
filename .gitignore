@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LangGraph
+.langgraph_api/
+
+# Generated TTL files (action execution results)
+action/world/*.ttl
+!action/world/.gitkeep
+
+# Execution logs
+action/log/*.json
+!action/log/.gitkeep
+
+# PDDL generated files
+pddl/problem/*.pddl
+pddl/solution/*.plan
+pddl/logs/*
+
+# Neo4j data (if any)
+neo4j/data/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Fast Downward (external repository - install separately)
+pddl/fast-downward/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+

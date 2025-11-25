@@ -1,0 +1,1850 @@
+@prefix : <http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10> rdf:type owl:Ontology ;
+    owl:imports <../../robot.owx> .
+
+:bench_1 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, made of ['wood', 'metal'], visual texture: stained, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bench_2 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, in corridor_15" ;
+    :artifactIsInSpace :corridor_15 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:umbrella_3 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['ceramic', None], in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:umbrella_4 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['glass', None], tactile texture: bumpy, in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:umbrella_5 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['ceramic', None], in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:umbrella_6 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['ceramic', None], visual texture: paisley, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:bottle_7 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, made of ['ceramic', None], visual texture: paisley, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:bottle_8 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, made of ['wood', None], in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:bottle_9 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, made of ['ceramic', None], visual texture: paisley, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:bottle_10 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, made of ['metal', None], tactile texture: perforated, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:bottle_11 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, made of ['wood', None], in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :isOpen "false"^^xsd:boolean .
+
+:cup_12 rdf:type :Artifact ;
+    :category "cup" ;
+    :description "A cup, made of ['wood', None], in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:cup_13 rdf:type :Artifact ;
+    :category "cup" ;
+    :description "A cup, made of ['wood', None], in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:cup_14 rdf:type :Artifact ;
+    :category "cup" ;
+    :description "A cup, made of ['fabric', None], in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:spoon_15 rdf:type :Artifact ;
+    :category "spoon" ;
+    :description "A spoon, made of ['fabric', 'wood'], in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn .
+
+:bowl_16 rdf:type :Artifact ;
+    :category "bowl" ;
+    :description "A bowl, made of ['fabric', 'wood'], in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:chair_17 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', 'wood'], visual texture: striped, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_18 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', 'wood'], visual texture: striped, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_19 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', 'wood'], tactile texture: woven, visual texture: interlaced, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_20 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', 'wood'], tactile texture: woven, visual texture: interlaced, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_21 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['wood', None], in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_22 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['wood', None], in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_23 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['metal', None], in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_24 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['wood', None], tactile texture: braided, visual texture: interlaced, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_25 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['wood', None], tactile texture: braided, visual texture: interlaced, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_26 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', None], visual texture: lined, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_27 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', None], tactile texture: braided, visual texture: interlaced, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_28 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['metal', None], in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_29 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', 'wood'], in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_30 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', None], in lobby_24" ;
+    :artifactIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_31 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', 'wood'], in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_32 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['fabric', None], in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_33 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['foliage', 'metal'], tactile texture: fibrous, visual texture: blotchy, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:chair_34 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['foliage', 'wood'], tactile texture: fibrous, visual texture: stained, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:couch_35 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A couch, made of ['wood', None], tactile texture: fibrous, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:couch_36 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A couch, made of ['ceramic', None], in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:couch_37 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A couch, made of ['ceramic', 'foliage'], tactile texture: frilly, visual texture: stained, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:couch_38 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A couch, made of ['metal', 'foliage'], tactile texture: frilly, visual texture: blotchy, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:potted_plant_39 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['metal', 'foliage'], tactile texture: frilly, visual texture: blotchy, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_40 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['ceramic', None], tactile texture: grooved, visual texture: smeared, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_41 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['wood', None], tactile texture: fibrous, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_42 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['ceramic', 'foliage'], tactile texture: frilly, visual texture: stained, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_43 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['wood', 'fabric'], visual texture: dotted, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_44 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['fabric', None], tactile texture: waffled, visual texture: interlaced, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_45 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['fabric', None], tactile texture: waffled, visual texture: interlaced, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_46 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['fabric', 'metal'], in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_47 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['fabric', None], visual texture: paisley, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_48 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['wood', None], in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand .
+
+:potted_plant_49 rdf:type :Artifact ;
+    :category "potted plant" ;
+    :description "A potted plant, made of ['ceramic', None], in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand .
+
+:bed_50 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, made of ['ceramic', None], in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_51 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, made of ['ceramic', None], in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_52 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, made of ['plastic', 'glass'], in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_53 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, made of ['metal', 'glass'], in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bed_54 rdf:type :Artifact ;
+    :category "bed" ;
+    :description "A bed, made of ['ceramic', None], in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:dining_table_55 rdf:type :Artifact ;
+    :category "dining table" ;
+    :description "A dining table, made of ['ceramic', None], in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:dining_table_56 rdf:type :Artifact ;
+    :category "dining table" ;
+    :description "A dining table, made of ['ceramic', None], in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:toilet_57 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, made of ['ceramic', None], in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:toilet_58 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, made of ['metal', None], in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:toilet_59 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, made of ['paper', None], tactile texture: veined, visual texture: stained, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:tv_60 rdf:type :Artifact ;
+    :category "tv" ;
+    :description "A tv, made of ['paper', None], tactile texture: veined, visual texture: stained, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:tv_61 rdf:type :Artifact ;
+    :category "tv" ;
+    :description "A tv, made of ['paper', None], tactile texture: veined, visual texture: stained, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:laptop_62 rdf:type :Artifact ;
+    :category "laptop" ;
+    :description "A laptop, made of ['paper', None], tactile texture: grooved, visual texture: stained, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:oven_63 rdf:type :Artifact ;
+    :category "oven" ;
+    :description "A oven, made of ['paper', None], tactile texture: grooved, visual texture: stained, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:oven_64 rdf:type :Artifact ;
+    :category "oven" ;
+    :description "A oven, made of ['ceramic', None], visual texture: smeared, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:sink_65 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, made of ['ceramic', None], visual texture: smeared, in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_66 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, made of ['glass', None], in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_67 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, made of ['ceramic', None], visual texture: smeared, in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_68 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, made of ['glass', None], in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_69 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_70 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_PlaceIn .
+
+:sink_71 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_PlaceIn .
+
+:refrigerator_72 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:refrigerator_73 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:refrigerator_74 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:refrigerator_75 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:refrigerator_76 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:refrigerator_77 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:refrigerator_78 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, in storage_room_28" ;
+    :artifactIsInSpace :storage_room_28 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_79 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_80 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_81 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_82 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_83 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_84 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_85 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_Open ;
+    :isOpen "false"^^xsd:boolean .
+
+:clock_86 rdf:type :Artifact ;
+    :category "clock" ;
+    :description "A clock, in closet_12" ;
+    :artifactIsInSpace :closet_12  .
+
+:vase_87 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_88 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_89 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_90 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_91 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:vase_92 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:teddy_bear_93 rdf:type :Artifact ;
+    :category "teddy bear" ;
+    :description "A teddy bear, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupOneHand .
+
+:mirror_94 rdf:type :Artifact ;
+    :category "mirror" ;
+    :description "A mirror, made of ['glass', 'metal'], tactile texture: smooth, visual texture: transparent, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:hair_drier_95 rdf:type :Artifact ;
+    :category "hair drier" ;
+    :description "A hair drier, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:hair_drier_96 rdf:type :Artifact ;
+    :category "hair drier" ;
+    :description "A hair drier, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:mirror_97 rdf:type :Artifact ;
+    :category "mirror" ;
+    :description "A mirror, made of ['glass', 'metal'], tactile texture: smooth, visual texture: transparent, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bottle_98 rdf:type :Artifact ;
+    :category "bottle" ;
+    :description "A bottle, made of ['glass', 'plastic'], tactile texture: smooth, visual texture: transparent, in bathroom_1" ;
+    :artifactIsInSpace :bathroom_1 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn ;
+    :isOpen "false"^^xsd:boolean .
+
+:cabinet_99 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in bathroom_2" ;
+    :artifactIsInSpace :bathroom_2 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:drawer_100 rdf:type :Artifact ;
+    :category "drawer" ;
+    :description "A drawer, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in bathroom_2" ;
+    :artifactIsInSpace :bathroom_2 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:shower_101 rdf:type :Artifact ;
+    :category "shower" ;
+    :description "A shower, made of ['ceramic', 'metal', 'glass'], tactile texture: smooth, visual texture: glossy, in bathroom_2" ;
+    :artifactIsInSpace :bathroom_2 ;
+    :affords :Affordance_Power .
+
+:cabinet_102 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in bathroom_2" ;
+    :artifactIsInSpace :bathroom_2 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:plant_103 rdf:type :Artifact ;
+    :category "plant" ;
+    :description "A plant, made of ['organic'], tactile texture: varied, visual texture: natural, in bathroom_2" ;
+    :artifactIsInSpace :bathroom_2 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:shower_104 rdf:type :Artifact ;
+    :category "shower" ;
+    :description "A shower, made of ['ceramic', 'metal', 'glass'], tactile texture: smooth, visual texture: glossy, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_Power .
+
+:drawer_105 rdf:type :Artifact ;
+    :category "drawer" ;
+    :description "A drawer, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:toilet_106 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, made of ['ceramic'], tactile texture: smooth, visual texture: glossy, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:drawer_107 rdf:type :Artifact ;
+    :category "drawer" ;
+    :description "A drawer, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:sports_ball_108 rdf:type :Artifact ;
+    :category "sports ball" ;
+    :description "A sports ball, made of ['rubber', 'fabric'], tactile texture: grippy, visual texture: matte, in bathroom_3" ;
+    :artifactIsInSpace :bathroom_3 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:cabinet_109 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:towel_110 rdf:type :Artifact ;
+    :category "towel" ;
+    :description "A towel, made of ['fabric'], tactile texture: soft, visual texture: textured, in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:sink_111 rdf:type :Artifact ;
+    :category "sink" ;
+    :description "A sink, made of ['ceramic', 'metal', 'glass'], tactile texture: grooved, visual texture: stained, in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_PlaceIn .
+
+:stove_112 rdf:type :Artifact ;
+    :category "stove" ;
+    :description "A stove, made of ['metal'], tactile texture: smooth, visual texture: shiny, in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:laptop_113 rdf:type :Artifact ;
+    :category "laptop" ;
+    :description "A laptop, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in bathroom_4" ;
+    :artifactIsInSpace :bathroom_4 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:vase_114 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, made of ['ceramic', 'glass'], tactile texture: smooth, visual texture: glossy, in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:toilet_115 rdf:type :Artifact ;
+    :category "toilet" ;
+    :description "A toilet, made of ['ceramic'], tactile texture: smooth, visual texture: glossy, in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit ;
+    :isOpen "false"^^xsd:boolean .
+
+:toothbrush_116 rdf:type :Artifact ;
+    :category "toothbrush" ;
+    :description "A toothbrush, made of ['plastic'], tactile texture: smooth, visual texture: smooth, in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:clock_117 rdf:type :Artifact ;
+    :category "clock" ;
+    :description "A clock, made of ['plastic', 'metal', 'wood'], tactile texture: smooth, visual texture: smooth, in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:onion_118 rdf:type :Artifact ;
+    :category "onion" ;
+    :description "A onion, made of ['organic'], tactile texture: varied, visual texture: natural, in bathroom_5" ;
+    :artifactIsInSpace :bathroom_5 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:wardrobe_119 rdf:type :Artifact ;
+    :category "wardrobe" ;
+    :description "A wardrobe, made of ['wood'], tactile texture: smooth, visual texture: grainy, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:book_120 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, made of ['paper'], tactile texture: grooved, visual texture: stained, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn ;
+    :isOpen "false"^^xsd:boolean .
+
+:safe_121 rdf:type :Artifact ;
+    :category "safe" ;
+    :description "A safe, made of ['metal'], tactile texture: smooth, visual texture: shiny, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :requiresKey :key_234 ;
+    :isOpen "false"^^xsd:boolean .
+
+:mirror_122 rdf:type :Artifact ;
+    :category "mirror" ;
+    :description "A mirror, made of ['glass', 'metal'], tactile texture: smooth, visual texture: transparent, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:lamp_123 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in bedroom_6" ;
+    :artifactIsInSpace :bedroom_6 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:cell_phone_124 rdf:type :Artifact ;
+    :category "cell phone" ;
+    :description "A cell phone, made of ['plastic', 'metal', 'glass'], tactile texture: smooth, visual texture: shiny, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:lamp_125 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:book_126 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, made of ['paper'], tactile texture: grooved, visual texture: stained, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn ;
+    :isOpen "false"^^xsd:boolean .
+
+:computer_127 rdf:type :Artifact ;
+    :category "computer" ;
+    :description "A computer, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:tomato_128 rdf:type :Artifact ;
+    :category "tomato" ;
+    :description "A tomato, made of ['organic'], tactile texture: varied, visual texture: natural, in bedroom_7" ;
+    :artifactIsInSpace :bedroom_7 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:pillow_129 rdf:type :Artifact ;
+    :category "pillow" ;
+    :description "A pillow, made of ['fabric'], tactile texture: soft, visual texture: textured, in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:lamp_130 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:laptop_131 rdf:type :Artifact ;
+    :category "laptop" ;
+    :description "A laptop, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:toy_132 rdf:type :Artifact ;
+    :category "toy" ;
+    :description "A toy, made of ['plastic', 'fabric'], tactile texture: smooth, visual texture: textured, in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:cake_133 rdf:type :Artifact ;
+    :category "cake" ;
+    :description "A cake, made of ['organic'], tactile texture: bumpy, visual texture: striped, in bedroom_8" ;
+    :artifactIsInSpace :bedroom_8 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:backpack_134 rdf:type :Artifact ;
+    :category "backpack" ;
+    :description "A backpack, made of ['fabric', 'plastic'], tactile texture: soft, visual texture: textured, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:chair_135 rdf:type :Artifact ;
+    :category "chair" ;
+    :description "A chair, made of ['wood', 'metal', 'fabric'], tactile texture: smooth, visual texture: grainy, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:teddy_bear_136 rdf:type :Artifact ;
+    :category "teddy bear" ;
+    :description "A teddy bear, made of ['fabric'], tactile texture: soft, visual texture: textured, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:spoon_137 rdf:type :Artifact ;
+    :category "spoon" ;
+    :description "A spoon, made of ['metal', 'plastic'], tactile texture: veined, visual texture: striped, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:lettuce_138 rdf:type :Artifact ;
+    :category "lettuce" ;
+    :description "A lettuce, made of ['organic'], tactile texture: varied, visual texture: natural, in bedroom_9" ;
+    :artifactIsInSpace :bedroom_9 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:desk_139 rdf:type :Artifact ;
+    :category "desk" ;
+    :description "A desk, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupTwoHands .
+
+:laptop_140 rdf:type :Artifact ;
+    :category "laptop" ;
+    :description "A laptop, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:lamp_141 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:bowl_142 rdf:type :Artifact ;
+    :category "bowl" ;
+    :description "A bowl, made of ['ceramic', 'glass', 'wood'], tactile texture: smooth, visual texture: glossy, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:tie_143 rdf:type :Artifact ;
+    :category "tie" ;
+    :description "A tie, made of ['fabric', 'silk'], tactile texture: soft, visual texture: transparent, in childs_room_10" ;
+    :artifactIsInSpace :childs_room_10 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:hanger_144 rdf:type :Artifact ;
+    :category "hanger" ;
+    :description "A hanger, made of ['metal', 'plastic', 'wood'], tactile texture: smooth, visual texture: shiny, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:wardrobe_145 rdf:type :Artifact ;
+    :category "wardrobe" ;
+    :description "A wardrobe, made of ['wood'], tactile texture: smooth, visual texture: grainy, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:wardrobe_146 rdf:type :Artifact ;
+    :category "wardrobe" ;
+    :description "A wardrobe, made of ['wood'], tactile texture: smooth, visual texture: grainy, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:cucumber_147 rdf:type :Artifact ;
+    :category "cucumber" ;
+    :description "A cucumber, made of ['organic'], tactile texture: varied, visual texture: natural, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:motorcycle_148 rdf:type :Artifact ;
+    :category "motorcycle" ;
+    :description "A motorcycle, made of ['metal', 'rubber'], tactile texture: smooth, visual texture: shiny, in closet_11" ;
+    :artifactIsInSpace :closet_11 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:wardrobe_149 rdf:type :Artifact ;
+    :category "wardrobe" ;
+    :description "A wardrobe, made of ['wood'], tactile texture: smooth, visual texture: grainy, in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:wardrobe_150 rdf:type :Artifact ;
+    :category "wardrobe" ;
+    :description "A wardrobe, made of ['wood'], tactile texture: smooth, visual texture: grainy, in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:hanger_151 rdf:type :Artifact ;
+    :category "hanger" ;
+    :description "A hanger, made of ['metal', 'plastic', 'wood'], tactile texture: smooth, visual texture: shiny, in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:pillow_152 rdf:type :Artifact ;
+    :category "pillow" ;
+    :description "A pillow, made of ['fabric'], tactile texture: soft, visual texture: textured, in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:baseball_bat_153 rdf:type :Artifact ;
+    :category "baseball bat" ;
+    :description "A baseball bat, made of ['wood', 'metal'], tactile texture: smooth, visual texture: shiny, in closet_12" ;
+    :artifactIsInSpace :closet_12 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:box_154 rdf:type :Artifact ;
+    :category "box" ;
+    :description "A box, made of ['cardboard', 'wood', 'plastic'], tactile texture: smooth, visual texture: grainy, in closet_13" ;
+    :artifactIsInSpace :closet_13 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:cabinet_155 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in closet_13" ;
+    :artifactIsInSpace :closet_13 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:tie_156 rdf:type :Artifact ;
+    :category "tie" ;
+    :description "A tie, made of ['fabric', 'silk'], tactile texture: soft, visual texture: transparent, in closet_13" ;
+    :artifactIsInSpace :closet_13 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:handrail_157 rdf:type :Artifact ;
+    :category "handrail" ;
+    :description "A handrail, made of ['metal', 'wood'], tactile texture: smooth, visual texture: shiny, in closet_13" ;
+    :artifactIsInSpace :closet_13 ;
+    :affords :Affordance_PickupOneHand .
+
+:cabinet_158 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in closet_13" ;
+    :artifactIsInSpace :closet_13 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:vase_159 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, made of ['ceramic', 'glass'], tactile texture: smooth, visual texture: glossy, in corridor_14" ;
+    :artifactIsInSpace :corridor_14 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:umbrella_160 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['fabric', 'metal', 'plastic'], tactile texture: soft, visual texture: textured, in corridor_14" ;
+    :artifactIsInSpace :corridor_14 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:umbrella_161 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['fabric', 'metal', 'plastic'], tactile texture: soft, visual texture: textured, in corridor_14" ;
+    :artifactIsInSpace :corridor_14 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:box_162 rdf:type :Artifact ;
+    :category "box" ;
+    :description "A box, made of ['cardboard', 'wood', 'plastic'], tactile texture: smooth, visual texture: grainy, in corridor_14" ;
+    :artifactIsInSpace :corridor_14 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:box_163 rdf:type :Artifact ;
+    :category "box" ;
+    :description "A box, made of ['cardboard', 'wood', 'plastic'], tactile texture: smooth, visual texture: grainy, in corridor_14" ;
+    :artifactIsInSpace :corridor_14 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:vase_164 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, made of ['ceramic', 'glass'], tactile texture: smooth, visual texture: glossy, in corridor_15" ;
+    :artifactIsInSpace :corridor_15 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:plant_165 rdf:type :Artifact ;
+    :category "plant" ;
+    :description "A plant, made of ['organic'], tactile texture: varied, visual texture: natural, in corridor_15" ;
+    :artifactIsInSpace :corridor_15 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bench_166 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in corridor_15" ;
+    :artifactIsInSpace :corridor_15 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:microwave_167 rdf:type :Artifact ;
+    :category "microwave" ;
+    :description "A microwave, made of ['metal', 'plastic'], tactile texture: smooth, visual texture: shiny, in corridor_15" ;
+    :artifactIsInSpace :corridor_15 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power ;
+    :isOpen "false"^^xsd:boolean .
+
+:wine_glass_168 rdf:type :Artifact ;
+    :category "wine glass" ;
+    :description "A wine glass, made of ['glass'], tactile texture: smooth, visual texture: transparent, in corridor_15" ;
+    :artifactIsInSpace :corridor_15 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:picture_169 rdf:type :Artifact ;
+    :category "picture" ;
+    :description "A picture, made of ['paper', 'canvas', 'glass'], tactile texture: smooth, visual texture: matte, in corridor_16" ;
+    :artifactIsInSpace :corridor_16 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:picture_170 rdf:type :Artifact ;
+    :category "picture" ;
+    :description "A picture, made of ['paper', 'canvas', 'glass'], tactile texture: smooth, visual texture: matte, in corridor_16" ;
+    :artifactIsInSpace :corridor_16 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:lamp_171 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in corridor_16" ;
+    :artifactIsInSpace :corridor_16 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:sofa_172 rdf:type :Artifact ;
+    :category "sofa" ;
+    :description "A sofa, made of ['fabric', 'leather', 'wood'], tactile texture: soft, visual texture: textured, in corridor_16" ;
+    :artifactIsInSpace :corridor_16 ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:knife_173 rdf:type :Artifact ;
+    :category "knife" ;
+    :description "A knife, made of ['metal'], tactile texture: grooved, visual texture: stained, in corridor_16" ;
+    :artifactIsInSpace :corridor_16 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:bench_174 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in corridor_17" ;
+    :artifactIsInSpace :corridor_17 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:picture_175 rdf:type :Artifact ;
+    :category "picture" ;
+    :description "A picture, made of ['paper', 'canvas', 'glass'], tactile texture: smooth, visual texture: matte, in corridor_17" ;
+    :artifactIsInSpace :corridor_17 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bench_176 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in corridor_17" ;
+    :artifactIsInSpace :corridor_17 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:watermelon_177 rdf:type :Artifact ;
+    :category "watermelon" ;
+    :description "A watermelon, made of ['organic'], tactile texture: varied, visual texture: natural, in corridor_17" ;
+    :artifactIsInSpace :corridor_17 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:phone_178 rdf:type :Artifact ;
+    :category "phone" ;
+    :description "A phone, made of ['plastic', 'metal', 'glass'], tactile texture: smooth, visual texture: smooth, in corridor_17" ;
+    :artifactIsInSpace :corridor_17 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:fork_179 rdf:type :Artifact ;
+    :category "fork" ;
+    :description "A fork, made of ['metal', 'plastic'], tactile texture: smooth, visual texture: shiny, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:fork_180 rdf:type :Artifact ;
+    :category "fork" ;
+    :description "A fork, made of ['metal', 'plastic'], tactile texture: smooth, visual texture: shiny, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:table_181 rdf:type :Artifact ;
+    :category "table" ;
+    :description "A table, made of ['wood', 'metal', 'glass'], tactile texture: smooth, visual texture: grainy, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn .
+
+:refrigerator_182 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, made of ['metal', 'plastic'], tactile texture: grooved, visual texture: stained, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:cucumber_183 rdf:type :Artifact ;
+    :category "cucumber" ;
+    :description "A cucumber, made of ['organic'], tactile texture: varied, visual texture: natural, in dining_room_18" ;
+    :artifactIsInSpace :dining_room_18 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:lamp_184 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:lamp_185 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:computer_186 rdf:type :Artifact ;
+    :category "computer" ;
+    :description "A computer, made of ['plastic', 'metal'], tactile texture: smooth, visual texture: smooth, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_Power .
+
+:lettuce_187 rdf:type :Artifact ;
+    :category "lettuce" ;
+    :description "A lettuce, made of ['organic'], tactile texture: varied, visual texture: natural, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:plate_188 rdf:type :Artifact ;
+    :category "plate" ;
+    :description "A plate, made of ['ceramic', 'plastic'], tactile texture: smooth, visual texture: glossy, in home_office_19" ;
+    :artifactIsInSpace :home_office_19 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:toaster_189 rdf:type :Artifact ;
+    :category "toaster" ;
+    :description "A toaster, made of ['metal', 'plastic'], tactile texture: grooved, visual texture: striped, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:carrot_190 rdf:type :Artifact ;
+    :category "carrot" ;
+    :description "A carrot, made of ['organic'], tactile texture: varied, visual texture: natural, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:cabbage_191 rdf:type :Artifact ;
+    :category "cabbage" ;
+    :description "A cabbage, made of ['organic'], tactile texture: varied, visual texture: natural, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:skis_192 rdf:type :Artifact ;
+    :category "skis" ;
+    :description "A skis, made of ['fiberglass', 'metal', 'wood'], tactile texture: smooth, visual texture: smooth, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:pepper_193 rdf:type :Artifact ;
+    :category "pepper" ;
+    :description "A pepper, made of ['organic'], tactile texture: varied, visual texture: natural, in kitchen_20" ;
+    :artifactIsInSpace :kitchen_20 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:clock_194 rdf:type :Artifact ;
+    :category "clock" ;
+    :description "A clock, made of ['plastic', 'metal', 'wood'], tactile texture: smooth, visual texture: smooth, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:plant_195 rdf:type :Artifact ;
+    :category "plant" ;
+    :description "A plant, made of ['organic'], tactile texture: varied, visual texture: natural, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:sofa_196 rdf:type :Artifact ;
+    :category "sofa" ;
+    :description "A sofa, made of ['fabric', 'leather', 'wood'], tactile texture: soft, visual texture: textured, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:broom_197 rdf:type :Artifact ;
+    :category "broom" ;
+    :description "A broom, made of ['plastic', 'wood', 'fabric'], tactile texture: smooth, visual texture: smooth, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:book_198 rdf:type :Artifact ;
+    :category "book" ;
+    :description "A book, made of ['paper'], tactile texture: grooved, visual texture: stained, in living_room_21" ;
+    :artifactIsInSpace :living_room_21 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn ;
+    :isOpen "false"^^xsd:boolean .
+
+:grape_199 rdf:type :Artifact ;
+    :category "grape" ;
+    :description "A grape, made of ['organic'], tactile texture: varied, visual texture: natural, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:table_200 rdf:type :Artifact ;
+    :category "table" ;
+    :description "A table, made of ['wood', 'metal', 'glass'], tactile texture: smooth, visual texture: grainy, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn .
+
+:remote_201 rdf:type :Artifact ;
+    :category "remote" ;
+    :description "A remote, made of ['plastic'], tactile texture: smooth, visual texture: smooth, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:apple_202 rdf:type :Artifact ;
+    :category "apple" ;
+    :description "A apple, made of ['organic'], tactile texture: varied, visual texture: natural, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:baseball_glove_203 rdf:type :Artifact ;
+    :category "baseball glove" ;
+    :description "A baseball glove, made of ['leather', 'fabric'], tactile texture: smooth, visual texture: transparent, in living_room_22" ;
+    :artifactIsInSpace :living_room_22 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:umbrella_204 rdf:type :Artifact ;
+    :category "umbrella" ;
+    :description "A umbrella, made of ['fabric', 'metal', 'plastic'], tactile texture: soft, visual texture: textured, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:couch_205 rdf:type :Artifact ;
+    :category "couch" ;
+    :description "A couch, made of ['fabric', 'leather', 'wood'], tactile texture: fibrous, visual texture: textured, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:vase_206 rdf:type :Artifact ;
+    :category "vase" ;
+    :description "A vase, made of ['ceramic', 'glass'], tactile texture: smooth, visual texture: glossy, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:broccoli_207 rdf:type :Artifact ;
+    :category "broccoli" ;
+    :description "A broccoli, made of ['organic'], tactile texture: varied, visual texture: natural, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:car_208 rdf:type :Artifact ;
+    :category "car" ;
+    :description "A car, made of ['metal', 'glass', 'plastic'], tactile texture: smooth, visual texture: smooth, in living_room_23" ;
+    :artifactIsInSpace :living_room_23 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:bench_209 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in lobby_24" ;
+    :artifactIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:bench_210 rdf:type :Artifact ;
+    :category "bench" ;
+    :description "A bench, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in lobby_24" ;
+    :artifactIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn ;
+    :affords :Affordance_Sit .
+
+:clock_211 rdf:type :Artifact ;
+    :category "clock" ;
+    :description "A clock, made of ['plastic', 'metal', 'wood'], tactile texture: smooth, visual texture: smooth, in lobby_24" ;
+    :artifactIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:refrigerator_212 rdf:type :Artifact ;
+    :category "refrigerator" ;
+    :description "A refrigerator, made of ['metal', 'plastic'], tactile texture: grooved, visual texture: stained, in lobby_24" ;
+    :artifactIsInSpace :lobby_24 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:desk_213 rdf:type :Artifact ;
+    :category "desk" ;
+    :description "A desk, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in lobby_24" ;
+    :artifactIsInSpace :lobby_24 ;
+    :affords :Affordance_PickupTwoHands .
+
+:picture_214 rdf:type :Artifact ;
+    :category "picture" ;
+    :description "A picture, made of ['paper', 'canvas', 'glass'], tactile texture: smooth, visual texture: matte, in staircase_25" ;
+    :artifactIsInSpace :staircase_25 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:picture_215 rdf:type :Artifact ;
+    :category "picture" ;
+    :description "A picture, made of ['paper', 'canvas', 'glass'], tactile texture: smooth, visual texture: matte, in staircase_25" ;
+    :artifactIsInSpace :staircase_25 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:handrail_216 rdf:type :Artifact ;
+    :category "handrail" ;
+    :description "A handrail, made of ['metal', 'wood'], tactile texture: smooth, visual texture: shiny, in staircase_25" ;
+    :artifactIsInSpace :staircase_25 ;
+    :affords :Affordance_PickupOneHand .
+
+:bowl_217 rdf:type :Artifact ;
+    :category "bowl" ;
+    :description "A bowl, made of ['ceramic', 'glass', 'wood'], tactile texture: smooth, visual texture: glossy, in staircase_25" ;
+    :artifactIsInSpace :staircase_25 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:carrot_218 rdf:type :Artifact ;
+    :category "carrot" ;
+    :description "A carrot, made of ['organic'], tactile texture: varied, visual texture: natural, in staircase_25" ;
+    :artifactIsInSpace :staircase_25 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:handrail_219 rdf:type :Artifact ;
+    :category "handrail" ;
+    :description "A handrail, made of ['metal', 'wood'], tactile texture: smooth, visual texture: shiny, in staircase_26" ;
+    :artifactIsInSpace :staircase_26 ;
+    :affords :Affordance_PickupOneHand .
+
+:picture_220 rdf:type :Artifact ;
+    :category "picture" ;
+    :description "A picture, made of ['paper', 'canvas', 'glass'], tactile texture: smooth, visual texture: matte, in staircase_26" ;
+    :artifactIsInSpace :staircase_26 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:lamp_221 rdf:type :Artifact ;
+    :category "lamp" ;
+    :description "A lamp, made of ['metal', 'plastic', 'fabric'], tactile texture: smooth, visual texture: shiny, in staircase_26" ;
+    :artifactIsInSpace :staircase_26 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:knife_222 rdf:type :Artifact ;
+    :category "knife" ;
+    :description "A knife, made of ['metal'], tactile texture: grooved, visual texture: stained, in staircase_26" ;
+    :artifactIsInSpace :staircase_26 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_PlaceOn .
+
+:plate_223 rdf:type :Artifact ;
+    :category "plate" ;
+    :description "A plate, made of ['ceramic', 'plastic'], tactile texture: smooth, visual texture: glossy, in staircase_26" ;
+    :artifactIsInSpace :staircase_26 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:suitcase_224 rdf:type :Artifact ;
+    :category "suitcase" ;
+    :description "A suitcase, made of ['fabric', 'plastic', 'metal'], tactile texture: woven, visual texture: interlaced, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:motorcycle_225 rdf:type :Artifact ;
+    :category "motorcycle" ;
+    :description "A motorcycle, made of ['metal', 'rubber'], tactile texture: smooth, visual texture: shiny, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:cabinet_226 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:mouse_227 rdf:type :Artifact ;
+    :category "mouse" ;
+    :description "A mouse, made of ['fabric', 'paper'], tactile texture: fibrous, visual texture: blotchy, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:broom_228 rdf:type :Artifact ;
+    :category "broom" ;
+    :description "A broom, made of ['plastic', 'wood', 'fabric'], tactile texture: smooth, visual texture: smooth, in storage_room_27" ;
+    :artifactIsInSpace :storage_room_27 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:sports_ball_229 rdf:type :Artifact ;
+    :category "sports ball" ;
+    :description "A sports ball, made of ['rubber', 'fabric'], tactile texture: grippy, visual texture: matte, in storage_room_28" ;
+    :artifactIsInSpace :storage_room_28 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:cabinet_230 rdf:type :Artifact ;
+    :category "cabinet" ;
+    :description "A cabinet, made of ['wood', 'metal'], tactile texture: smooth, visual texture: grainy, in storage_room_28" ;
+    :artifactIsInSpace :storage_room_28 ;
+    :affords :Affordance_Open ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceIn ;
+    :isOpen "false"^^xsd:boolean .
+
+:skis_231 rdf:type :Artifact ;
+    :category "skis" ;
+    :description "A skis, made of ['fiberglass', 'metal', 'wood'], tactile texture: smooth, visual texture: smooth, in storage_room_28" ;
+    :artifactIsInSpace :storage_room_28 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn .
+
+:table_232 rdf:type :Artifact ;
+    :category "table" ;
+    :description "A table, made of ['wood', 'metal', 'glass'], tactile texture: smooth, visual texture: grainy, in storage_room_28" ;
+    :artifactIsInSpace :storage_room_28 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupTwoHands ;
+    :affords :Affordance_PlaceOn .
+
+:carrot_233 rdf:type :Artifact ;
+    :category "carrot" ;
+    :description "A carrot, made of ['organic'], tactile texture: varied, visual texture: natural, in storage_room_28" ;
+    :artifactIsInSpace :storage_room_28 ;
+    :affords :Affordance_Eat ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :affords :Affordance_Power .
+
+:key_234 rdf:type :Artifact ;
+    :category "key" ;
+    :description "A key, made of ['metal'], tactile texture: smooth, visual texture: shiny, in closet_13" ;
+    :artifactIsInSpace :closet_13 ;
+    :affords :Affordance_PickupOneHand ;
+    :affords :Affordance_PlaceIn ;
+    :unlocks :safe_121 .
+
+:left_hand rdf:type :Hand .
+
+:right_hand rdf:type :Hand .
+
+:robot1 rdf:type :Robot ;
+    :description "Main service robot in Darden building" ;
+    :robotIsInSpace :corridor_14 ;
+    :hasHand :left_hand ;
+    :hasHand :right_hand .

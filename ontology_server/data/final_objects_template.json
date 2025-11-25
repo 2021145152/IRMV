@@ -1,0 +1,3275 @@
+{
+  "apple": {
+    "class_": "apple",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "peel",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "backpack": {
+    "class_": "backpack",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "close",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "open",
+      "pick up",
+      "put in",
+      "store",
+      "store in",
+      "take from",
+      "wear"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "fabric",
+      "plastic"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "textured",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "banana": {
+    "class_": "banana",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "peel",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "baseball bat": {
+    "class_": "baseball bat",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hit",
+      "hold",
+      "pick up",
+      "store",
+      "swing",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.600210190767354,
+      0.3023992181435835,
+      0.46042804775167223
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.18150309240985896,
+    "volume": 0.08356911449916271,
+    "surface_coverage": 0.18150309240985896,
+    "parent_room": null
+  },
+  "baseball glove": {
+    "class_": "baseball glove",
+    "action_affordance": [
+      "carry",
+      "catch",
+      "grab",
+      "hold",
+      "pick up",
+      "store",
+      "wear"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.4194534517682089,
+      0.30932611804836885,
+      0.46494381690173
+    ],
+    "material": [
+      "leather",
+      "fabric"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "transparent",
+    "floor_area": 0.12974790793744878,
+    "volume": 0.0603254875514517,
+    "surface_coverage": 0.12974790793744878,
+    "parent_room": null
+  },
+  "bed": {
+    "class_": "bed",
+    "action_affordance": [
+      "clean",
+      "lay on",
+      "make",
+      "move",
+      "sit on",
+      "sleep on",
+      "step on",
+      "tidy"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.7987103942288838,
+      1.8122410338752075,
+      1.1356050799981765
+    ],
+    "material": [
+      "wood",
+      "metal",
+      "fabric"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 3.2596967844794347,
+    "volume": 3.7017282277085672,
+    "surface_coverage": 3.2596967844794347,
+    "parent_room": null
+  },
+  "bench": {
+    "class_": "bench",
+    "action_affordance": [
+      "clean",
+      "lay on",
+      "move",
+      "place on",
+      "sit on",
+      "step on"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.715,
+      1.674,
+      1.243
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 1.19691,
+    "volume": 1.48775913,
+    "surface_coverage": 1.19691,
+    "parent_room": null
+  },
+  "bicycle": {
+    "class_": "bicycle",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "move",
+      "park",
+      "pick up",
+      "repair",
+      "ride",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.056,
+      1.492,
+      1.236
+    ],
+    "material": [
+      "metal",
+      "rubber"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 1.575552,
+    "volume": 1.947382272,
+    "surface_coverage": 1.575552,
+    "parent_room": null
+  },
+  "boat": {
+    "class_": "boat",
+    "action_affordance": [
+      "clean",
+      "drive",
+      "move",
+      "paint",
+      "repair",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.8873462669637554,
+      0.6384802909941304,
+      0.7877520934333262
+    ],
+    "material": [
+      "fiberglass",
+      "wood",
+      "metal"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "smooth",
+    "floor_area": 0.5665531027435738,
+    "volume": 0.44630339272739666,
+    "surface_coverage": 0.5665531027435738,
+    "parent_room": null
+  },
+  "book": {
+    "class_": "book",
+    "action_affordance": [
+      "borrow",
+      "carry",
+      "close",
+      "grab",
+      "hold",
+      "lend",
+      "open",
+      "pick up",
+      "place on",
+      "read",
+      "set on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.301,
+      0.135,
+      0.082
+    ],
+    "material": [
+      "paper"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "stained",
+    "floor_area": 0.040635000000000004,
+    "volume": 0.0033320700000000003,
+    "surface_coverage": 0.040635000000000004,
+    "parent_room": null,
+    "is_open": false
+  },
+  "bottle": {
+    "class_": "bottle",
+    "action_affordance": [
+      "carry",
+      "drink from",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "open",
+      "pick up",
+      "place on",
+      "pour in",
+      "set on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.22292508727013938,
+      0.22761371272795114,
+      0.273490457544494
+    ],
+    "material": [
+      "glass",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "transparent",
+    "floor_area": 0.05074080677375894,
+    "volume": 0.013877126460732093,
+    "surface_coverage": 0.05074080677375894,
+    "parent_room": null
+  },
+  "bowl": {
+    "class_": "bowl",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "eat from",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "pick up",
+      "pour in",
+      "set on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.2,
+      0.05
+    ],
+    "material": [
+      "ceramic",
+      "glass",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "glossy",
+    "floor_area": 0.04000000000000001,
+    "volume": 0.0020000000000000005,
+    "surface_coverage": 0.04000000000000001,
+    "parent_room": null
+  },
+  "box": {
+    "class_": "box",
+    "action_affordance": [
+      "carry",
+      "close",
+      "grab",
+      "hold",
+      "move",
+      "open",
+      "pick up",
+      "put in",
+      "store",
+      "store in",
+      "take from"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "cardboard",
+      "wood",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null,
+    "is_open": false
+  },
+  "broccoli": {
+    "class_": "broccoli",
+    "action_affordance": [
+      "bake",
+      "bite",
+      "boil",
+      "carry",
+      "clean",
+      "cut",
+      "eat",
+      "fry",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2875244638583849,
+      0.2779675149084859,
+      0.20488152982814045
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.07992246069411003,
+    "volume": 0.016374636014638688,
+    "surface_coverage": 0.07992246069411003,
+    "parent_room": null
+  },
+  "broom": {
+    "class_": "broom",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "grab",
+      "hold",
+      "pick up",
+      "store",
+      "sweep",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.0,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "plastic",
+      "wood",
+      "fabric"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.1,
+    "volume": 0.010000000000000002,
+    "surface_coverage": 0.1,
+    "parent_room": null
+  },
+  "cabbage": {
+    "class_": "cabbage",
+    "action_affordance": [
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "cabinet": {
+    "class_": "cabinet",
+    "action_affordance": [
+      "clean",
+      "close",
+      "move",
+      "open",
+      "place on",
+      "put in",
+      "store in",
+      "take from"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.0,
+      0.6,
+      2.0
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 0.6,
+    "volume": 1.2,
+    "surface_coverage": 0.6,
+    "parent_room": null,
+    "is_open": false
+  },
+  "cake": {
+    "class_": "cake",
+    "action_affordance": [
+      "bake",
+      "bite",
+      "carry",
+      "cut",
+      "decorate",
+      "dip",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "slice",
+      "store",
+      "through away"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.251,
+      0.035,
+      0.628
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "bumpy",
+    "visual_texture": "striped",
+    "floor_area": 0.043785,
+    "volume": 0.027496979999999997,
+    "surface_coverage": 0.043785,
+    "parent_room": null
+  },
+  "car": {
+    "class_": "car",
+    "action_affordance": [
+      "clean",
+      "drive",
+      "move",
+      "park",
+      "repair",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.8505271040904098,
+      0.8408234609756042,
+      0.4441215258092865
+    ],
+    "material": [
+      "metal",
+      "glass",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.7151431433148563,
+    "volume": 0.3176104639810432,
+    "surface_coverage": 0.7151431433148563,
+    "parent_room": null
+  },
+  "carrot": {
+    "class_": "carrot",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.15,
+      0.15,
+      0.2
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.0225,
+    "volume": 0.0045,
+    "surface_coverage": 0.0225,
+    "parent_room": null
+  },
+  "cell phone": {
+    "class_": "cell phone",
+    "action_affordance": [
+      "answer",
+      "call",
+      "carry",
+      "grab",
+      "hold",
+      "look at",
+      "pick up",
+      "place on",
+      "set on",
+      "store",
+      "text",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2046011367007895,
+      0.21332265216410237,
+      0.20931710324161448
+    ],
+    "material": [
+      "plastic",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.04364605711680248,
+    "volume": 0.009135866243607148,
+    "surface_coverage": 0.04364605711680248,
+    "parent_room": null
+  },
+  "chair": {
+    "class_": "chair",
+    "action_affordance": [
+      "break",
+      "clean",
+      "move",
+      "place on",
+      "repair",
+      "sit on",
+      "step on"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.8384204513880459,
+      0.8344784988197,
+      0.8007516918155906
+    ],
+    "material": [
+      "wood",
+      "metal",
+      "fabric"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 0.6996438396540319,
+    "volume": 0.5602409882713218,
+    "surface_coverage": 0.6996438396540319,
+    "parent_room": null
+  },
+  "clock": {
+    "class_": "clock",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hang",
+      "hold",
+      "look at",
+      "move",
+      "pick up",
+      "place",
+      "set",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.27636211866500243,
+      0.24640714358241378,
+      0.38896605819680086
+    ],
+    "material": [
+      "plastic",
+      "metal",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.06809760025462733,
+    "volume": 0.026487655143703853,
+    "surface_coverage": 0.06809760025462733,
+    "parent_room": null
+  },
+  "computer": {
+    "class_": "computer",
+    "action_affordance": [
+      "clean",
+      "move",
+      "place on",
+      "plug",
+      "turn off",
+      "turn on",
+      "use",
+      "work at"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.2,
+      0.1,
+      0.8
+    ],
+    "material": [
+      "plastic",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.12,
+    "volume": 0.096,
+    "surface_coverage": 0.12,
+    "parent_room": null,
+    "is_on": false
+  },
+  "couch": {
+    "class_": "couch",
+    "action_affordance": [
+      "clean",
+      "lay on",
+      "move",
+      "place on",
+      "sit on",
+      "step on",
+      "tidy"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      3.078,
+      1.342,
+      0.866
+    ],
+    "material": [
+      "fabric",
+      "leather",
+      "wood"
+    ],
+    "tactile_texture": "fibrous",
+    "visual_texture": "textured",
+    "floor_area": 4.130676,
+    "volume": 3.577165416,
+    "surface_coverage": 4.130676,
+    "parent_room": null
+  },
+  "cucumber": {
+    "class_": "cucumber",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "chop",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.15,
+      0.15,
+      0.2
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.0225,
+    "volume": 0.0045,
+    "surface_coverage": 0.0225,
+    "parent_room": null
+  },
+  "cup": {
+    "class_": "cup",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "drink from",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "pick up",
+      "pour in",
+      "set on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.2
+    ],
+    "material": [
+      "ceramic",
+      "glass",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "lined",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0020000000000000005,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "desk": {
+    "class_": "desk",
+    "action_affordance": [
+      "clean",
+      "move",
+      "place on",
+      "sit at",
+      "work at"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.5,
+      0.8,
+      0.8
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 1.2000000000000002,
+    "volume": 0.9600000000000002,
+    "surface_coverage": 1.2000000000000002,
+    "parent_room": null
+  },
+  "dining table": {
+    "class_": "dining table",
+    "action_affordance": [
+      "clean",
+      "decorate",
+      "lay on",
+      "move",
+      "place on",
+      "set",
+      "sit at",
+      "tidy"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.1083092134067434,
+      1.0878622323584468,
+      0.6315791181927097
+    ],
+    "material": [
+      "wood",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 1.205687735040094,
+    "volume": 0.761487196512388,
+    "surface_coverage": 1.205687735040094,
+    "parent_room": null
+  },
+  "donut": {
+    "class_": "donut",
+    "action_affordance": [
+      "bake",
+      "bite",
+      "carry",
+      "decorate",
+      "dip",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store",
+      "through away"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.516069307568781,
+      0.40935035074552584,
+      0.4063915703944772
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.21125315206228115,
+    "volume": 0.08585150021737373,
+    "surface_coverage": 0.21125315206228115,
+    "parent_room": null
+  },
+  "drawer": {
+    "class_": "drawer",
+    "action_affordance": [
+      "clean",
+      "close",
+      "move",
+      "open",
+      "place on",
+      "put in",
+      "store in",
+      "take from"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.0,
+      0.6,
+      2.0
+    ],
+    "material": [
+      "wood",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 0.6,
+    "volume": 1.2,
+    "surface_coverage": 0.6,
+    "parent_room": null,
+    "is_open": false
+  },
+  "dustpan": {
+    "class_": "dustpan",
+    "action_affordance": [
+      "carry",
+      "empty",
+      "grab",
+      "hold",
+      "pick up",
+      "store",
+      "sweep into",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.0,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "plastic",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.1,
+    "volume": 0.010000000000000002,
+    "surface_coverage": 0.1,
+    "parent_room": null
+  },
+  "fork": {
+    "class_": "fork",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "eat with",
+      "grab",
+      "hold",
+      "pick up",
+      "set on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.02,
+      0.02
+    ],
+    "material": [
+      "metal",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.004,
+    "volume": 8e-05,
+    "surface_coverage": 0.004,
+    "parent_room": null
+  },
+  "frisbee": {
+    "class_": "frisbee",
+    "action_affordance": [
+      "carry",
+      "catch",
+      "grab",
+      "hold",
+      "pick up",
+      "store",
+      "throw"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3954956635074713,
+      0.33397222582560415,
+      0.44163258092424457
+    ],
+    "material": [
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "stained",
+    "floor_area": 0.13208456704596436,
+    "volume": 0.05833284824477066,
+    "surface_coverage": 0.13208456704596436,
+    "parent_room": null
+  },
+  "grape": {
+    "class_": "grape",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "hair drier": {
+    "class_": "hair drier",
+    "action_affordance": [
+      "carry",
+      "dry",
+      "plug",
+      "store",
+      "turn off",
+      "turn on",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.17046886262744904,
+      0.15037065675122596,
+      0.13467817685879263
+    ],
+    "material": [
+      "plastic",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.02563351482892403,
+    "volume": 0.003452275043642314,
+    "surface_coverage": 0.02563351482892403,
+    "parent_room": null,
+    "is_on": false
+  },
+  "hammer": {
+    "class_": "hammer",
+    "action_affordance": [
+      "break",
+      "carry",
+      "grab",
+      "hit",
+      "hold",
+      "nail",
+      "pick up",
+      "repair",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.05,
+      0.05
+    ],
+    "material": [
+      "metal",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.015,
+    "volume": 0.00075,
+    "surface_coverage": 0.015,
+    "parent_room": null
+  },
+  "handbag": {
+    "class_": "handbag",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "close",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "open",
+      "pick up",
+      "put in",
+      "store",
+      "store in",
+      "take from",
+      "wear"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3358334217534352,
+      0.364349427107274,
+      0.48118222988133436
+    ],
+    "material": [
+      "fabric",
+      "leather",
+      "plastic"
+    ],
+    "tactile_texture": "bumpy",
+    "visual_texture": "polka-dotted",
+    "floor_area": 0.12236071481933966,
+    "volume": 0.058877801606643895,
+    "surface_coverage": 0.12236071481933966,
+    "parent_room": null
+  },
+  "handrail": {
+    "class_": "handrail",
+    "action_affordance": [
+      "grab",
+      "hold",
+      "pick up",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "metal",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "hanger": {
+    "class_": "hanger",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hang on",
+      "hold",
+      "pick up",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "metal",
+      "plastic",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "key": {
+    "class_": "key",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "lock",
+      "pick up",
+      "place on",
+      "store",
+      "unlock",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.05,
+      0.01,
+      0.01
+    ],
+    "material": [
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.0005,
+    "volume": 5e-06,
+    "surface_coverage": 0.0005,
+    "parent_room": null,
+    "unlocks": null
+  },
+  "keyboard": {
+    "class_": "keyboard",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "press",
+      "store",
+      "touch",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.5,
+      0.2,
+      0.02
+    ],
+    "material": [
+      "ceramic",
+      "fabric",
+      "glass",
+      "metal",
+      "paper"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "transparent",
+    "floor_area": 0.1,
+    "volume": 0.002,
+    "surface_coverage": 0.1,
+    "parent_room": null
+  },
+  "kite": {
+    "class_": "kite",
+    "action_affordance": [
+      "carry",
+      "fly",
+      "grab",
+      "hold",
+      "pick up",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.12294026153108881,
+      0.1602038195934686,
+      0.1636578918974608
+    ],
+    "material": [
+      "fabric",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "transparent",
+    "floor_area": 0.0196954994791004,
+    "volume": 0.0032233239246171087,
+    "surface_coverage": 0.0196954994791004,
+    "parent_room": null
+  },
+  "knife": {
+    "class_": "knife",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "cut",
+      "eat with",
+      "grab",
+      "hold",
+      "pick up",
+      "set on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.02,
+      0.02
+    ],
+    "material": [
+      "metal"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "stained",
+    "floor_area": 0.004,
+    "volume": 8e-05,
+    "surface_coverage": 0.004,
+    "parent_room": null
+  },
+  "lamp": {
+    "class_": "lamp",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "place on",
+      "plug",
+      "store",
+      "turn off",
+      "turn on",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "metal",
+      "plastic",
+      "fabric"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null,
+    "is_on": false
+  },
+  "laptop": {
+    "class_": "laptop",
+    "action_affordance": [
+      "carry",
+      "close",
+      "grab",
+      "hold",
+      "look at",
+      "move",
+      "open",
+      "pick up",
+      "place on",
+      "plug",
+      "store",
+      "turn off",
+      "turn on",
+      "use",
+      "work on"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.2,
+      0.1,
+      0.8
+    ],
+    "material": [
+      "plastic",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.12,
+    "volume": 0.096,
+    "surface_coverage": 0.12,
+    "parent_room": null,
+    "is_open": false,
+    "is_on": false
+  },
+  "lettuce": {
+    "class_": "lettuce",
+    "action_affordance": [
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "microwave": {
+    "class_": "microwave",
+    "action_affordance": [
+      "clean",
+      "close",
+      "cook",
+      "defrost",
+      "heat",
+      "move",
+      "open",
+      "place on",
+      "plug",
+      "put in",
+      "store in",
+      "take from",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.617,
+      0.7,
+      0.529
+    ],
+    "material": [
+      "metal",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.43189999999999995,
+    "volume": 0.2284751,
+    "surface_coverage": 0.43189999999999995,
+    "parent_room": null,
+    "is_open": false
+  },
+  "mirror": {
+    "class_": "mirror",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hang",
+      "hold",
+      "look at",
+      "move",
+      "pick up",
+      "place",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "glass",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "transparent",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "motorcycle": {
+    "class_": "motorcycle",
+    "action_affordance": [
+      "clean",
+      "move",
+      "park",
+      "repair",
+      "ride",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.401,
+      1.261,
+      0.927
+    ],
+    "material": [
+      "metal",
+      "rubber"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 1.7666609999999998,
+    "volume": 1.6376947469999998,
+    "surface_coverage": 1.7666609999999998,
+    "parent_room": null
+  },
+  "mouse": {
+    "class_": "mouse",
+    "action_affordance": [
+      "carry",
+      "click",
+      "drag",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "store",
+      "touch",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2617371983579897,
+      0.2642699881811067,
+      0.19789465835127917
+    ],
+    "material": [
+      "fabric",
+      "paper"
+    ],
+    "tactile_texture": "fibrous",
+    "visual_texture": "blotchy",
+    "floor_area": 0.06916928631662192,
+    "volume": 0.013688232284029704,
+    "surface_coverage": 0.06916928631662192,
+    "parent_room": null
+  },
+  "onion": {
+    "class_": "onion",
+    "action_affordance": [
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "orange": {
+    "class_": "orange",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "peel",
+      "pick up",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "oven": {
+    "class_": "oven",
+    "action_affordance": [
+      "clean",
+      "close",
+      "cook",
+      "heat",
+      "move",
+      "open",
+      "place on",
+      "plug",
+      "put in",
+      "store in",
+      "take from",
+      "turn off",
+      "turn on",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.8868274967241464,
+      0.8682480041798625,
+      1.0765731057387102
+    ],
+    "material": [
+      "metal"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "stained",
+    "floor_area": 0.7699862040825637,
+    "volume": 0.828946439105126,
+    "surface_coverage": 0.7699862040825637,
+    "parent_room": null,
+    "is_open": false,
+    "is_on": false
+  },
+  "pepper": {
+    "class_": "pepper",
+    "action_affordance": [
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.15,
+      0.15,
+      0.2
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.0225,
+    "volume": 0.0045,
+    "surface_coverage": 0.0225,
+    "parent_room": null
+  },
+  "phone": {
+    "class_": "phone",
+    "action_affordance": [
+      "answer",
+      "call",
+      "carry",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.15,
+      0.1,
+      0.02
+    ],
+    "material": [
+      "plastic",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.015,
+    "volume": 0.0003,
+    "surface_coverage": 0.015,
+    "parent_room": null
+  },
+  "picture": {
+    "class_": "picture",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hang",
+      "hold",
+      "look at",
+      "move",
+      "pick up",
+      "place",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "paper",
+      "canvas",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "matte",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "pillow": {
+    "class_": "pillow",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "lay on",
+      "pick up",
+      "place on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "fabric"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "textured",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "plant": {
+    "class_": "plant",
+    "action_affordance": [
+      "carry",
+      "look at",
+      "move",
+      "place on",
+      "store",
+      "water"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "plate": {
+    "class_": "plate",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "eat from",
+      "fill",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.2,
+      0.05
+    ],
+    "material": [
+      "ceramic",
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "glossy",
+    "floor_area": 0.04000000000000001,
+    "volume": 0.0020000000000000005,
+    "surface_coverage": 0.04000000000000001,
+    "parent_room": null
+  },
+  "potato": {
+    "class_": "potato",
+    "action_affordance": [
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "grab",
+      "hold",
+      "peel",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "potted plant": {
+    "class_": "potted plant",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "place on",
+      "store",
+      "water"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.4320461696655741,
+      0.4384893391524238,
+      0.5960848076254388
+    ],
+    "material": [
+      "ceramic",
+      "plastic",
+      "organic"
+    ],
+    "tactile_texture": "frilly",
+    "visual_texture": "stained",
+    "floor_area": 0.18944763941999354,
+    "volume": 0.11292685969876035,
+    "surface_coverage": 0.18944763941999354,
+    "parent_room": null
+  },
+  "refrigerator": {
+    "class_": "refrigerator",
+    "action_affordance": [
+      "clean",
+      "close",
+      "move",
+      "open",
+      "place on",
+      "put in",
+      "store in",
+      "take from"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.189,
+      0.471,
+      1.783
+    ],
+    "material": [
+      "metal",
+      "plastic"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "stained",
+    "floor_area": 0.560019,
+    "volume": 0.998513877,
+    "surface_coverage": 0.560019,
+    "parent_room": null,
+    "is_open": false
+  },
+  "remote": {
+    "class_": "remote",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "look for",
+      "move",
+      "pick up",
+      "place on",
+      "press",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.15,
+      0.1,
+      0.02
+    ],
+    "material": [
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.015,
+    "volume": 0.0003,
+    "surface_coverage": 0.015,
+    "parent_room": null
+  },
+  "safe": {
+    "class_": "safe",
+    "action_affordance": [
+      "close",
+      "grab",
+      "hold",
+      "lock",
+      "move",
+      "open",
+      "pick up",
+      "place on",
+      "put in",
+      "store in",
+      "take from",
+      "unlock",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.8,
+      0.6,
+      1.5
+    ],
+    "material": [
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.48,
+    "volume": 0.72,
+    "surface_coverage": 0.48,
+    "parent_room": null,
+    "is_open": false,
+    "is_locked": false,
+    "requires_key": null
+  },
+  "sandwich": {
+    "class_": "sandwich",
+    "action_affordance": [
+      "assemble",
+      "bite",
+      "carry",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "prepare",
+      "store",
+      "through away"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3905596390565711,
+      0.3271393686209092,
+      0.33987714286145965
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.12776743372977686,
+    "volume": 0.04342523032681745,
+    "surface_coverage": 0.12776743372977686,
+    "parent_room": null
+  },
+  "saw": {
+    "class_": "saw",
+    "action_affordance": [
+      "carry",
+      "cut",
+      "grab",
+      "hold",
+      "pick up",
+      "saw",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.05,
+      0.05
+    ],
+    "material": [
+      "metal",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.015,
+    "volume": 0.00075,
+    "surface_coverage": 0.015,
+    "parent_room": null
+  },
+  "scissors": {
+    "class_": "scissors",
+    "action_affordance": [
+      "carry",
+      "close",
+      "cut",
+      "grab",
+      "hold",
+      "open",
+      "pick up",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.22292194347044497,
+      0.20385927813376598,
+      0.45090482590148795
+    ],
+    "material": [
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.045444706476061095,
+    "volume": 0.02049123746173255,
+    "surface_coverage": 0.045444706476061095,
+    "parent_room": null
+  },
+  "shower": {
+    "class_": "shower",
+    "action_affordance": [
+      "clean",
+      "turn off",
+      "turn on",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "ceramic",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "glossy",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null,
+    "is_on": false
+  },
+  "sink": {
+    "class_": "sink",
+    "action_affordance": [
+      "clean",
+      "empty",
+      "fill",
+      "use",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.7920616984261155,
+      0.792896770700238,
+      0.395777394688162
+    ],
+    "material": [
+      "ceramic",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "stained",
+    "floor_area": 0.6280231628774128,
+    "volume": 0.24855737120744162,
+    "surface_coverage": 0.6280231628774128,
+    "parent_room": null
+  },
+  "skateboard": {
+    "class_": "skateboard",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "move",
+      "pick up",
+      "ride",
+      "stand on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.6288954145654373,
+      0.09651603296310207,
+      0.517067900072059
+    ],
+    "material": [
+      "wood",
+      "plastic",
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.060698490562541486,
+    "volume": 0.03138524105271702,
+    "surface_coverage": 0.060698490562541486,
+    "parent_room": null
+  },
+  "skis": {
+    "class_": "skis",
+    "action_affordance": [
+      "carry",
+      "pack",
+      "pick up",
+      "store",
+      "wear"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.21039787524592826,
+      0.2660760322921573,
+      0.7959722066267422
+    ],
+    "material": [
+      "fiberglass",
+      "metal",
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.0559818318481369,
+    "volume": 0.04455998222716876,
+    "surface_coverage": 0.0559818318481369,
+    "parent_room": null
+  },
+  "soap": {
+    "class_": "soap",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "organic",
+      "plastic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "sofa": {
+    "class_": "sofa",
+    "action_affordance": [
+      "clean",
+      "lay on",
+      "place on",
+      "sit on",
+      "tidy"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      2.0,
+      1.0,
+      0.5
+    ],
+    "material": [
+      "fabric",
+      "leather",
+      "wood"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "textured",
+    "floor_area": 2.0,
+    "volume": 1.0,
+    "surface_coverage": 2.0,
+    "parent_room": null
+  },
+  "spoon": {
+    "class_": "spoon",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "eat with",
+      "grab",
+      "hold",
+      "pick up",
+      "set on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.02,
+      0.02
+    ],
+    "material": [
+      "metal",
+      "plastic"
+    ],
+    "tactile_texture": "veined",
+    "visual_texture": "striped",
+    "floor_area": 0.004,
+    "volume": 8e-05,
+    "surface_coverage": 0.004,
+    "parent_room": null
+  },
+  "sports ball": {
+    "class_": "sports ball",
+    "action_affordance": [
+      "carry",
+      "catch",
+      "grab",
+      "hold",
+      "pick up",
+      "store",
+      "throw",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.41559575171225877,
+      0.40345069655794863,
+      0.33196926584615294
+    ],
+    "material": [
+      "rubber",
+      "fabric"
+    ],
+    "tactile_texture": "grippy",
+    "visual_texture": "matte",
+    "floor_area": 0.16767239551483507,
+    "volume": 0.05566208204172558,
+    "surface_coverage": 0.16767239551483507,
+    "parent_room": null
+  },
+  "stove": {
+    "class_": "stove",
+    "action_affordance": [
+      "clean",
+      "cook on",
+      "heat",
+      "move",
+      "place on",
+      "plug",
+      "turn off",
+      "turn on",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.8,
+      0.6,
+      1.8
+    ],
+    "material": [
+      "metal"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "shiny",
+    "floor_area": 0.48,
+    "volume": 0.864,
+    "surface_coverage": 0.48,
+    "parent_room": null,
+    "is_on": false
+  },
+  "strawberry": {
+    "class_": "strawberry",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "suitcase": {
+    "class_": "suitcase",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "prepare",
+      "put in",
+      "store",
+      "store in",
+      "take from",
+      "weigh"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.58,
+      0.628,
+      0.562
+    ],
+    "material": [
+      "fabric",
+      "plastic",
+      "metal"
+    ],
+    "tactile_texture": "woven",
+    "visual_texture": "interlaced",
+    "floor_area": 0.36423999999999995,
+    "volume": 0.20470288,
+    "surface_coverage": 0.36423999999999995,
+    "parent_room": null
+  },
+  "surfboard": {
+    "class_": "surfboard",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "ride",
+      "stand on",
+      "store",
+      "wax"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.4865307172648102,
+      0.5239698494551897,
+      1.0857466117990149
+    ],
+    "material": [
+      "fiberglass",
+      "foam"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.254927426680568,
+    "volume": 0.27678658977306847,
+    "surface_coverage": 0.254927426680568,
+    "parent_room": null
+  },
+  "table": {
+    "class_": "table",
+    "action_affordance": [
+      "clean",
+      "eat at",
+      "move",
+      "place on",
+      "work at"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.5,
+      0.8,
+      0.8
+    ],
+    "material": [
+      "wood",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 1.2000000000000002,
+    "volume": 0.9600000000000002,
+    "surface_coverage": 1.2000000000000002,
+    "parent_room": null
+  },
+  "teddy bear": {
+    "class_": "teddy bear",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "hug",
+      "pick up",
+      "place on",
+      "set",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3832872309092184,
+      0.4034656073172811,
+      0.3757516265106679
+    ],
+    "material": [
+      "fabric"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "textured",
+    "floor_area": 0.15464321539574677,
+    "volume": 0.05810743971379141,
+    "surface_coverage": 0.15464321539574677,
+    "parent_room": null
+  },
+  "tie": {
+    "class_": "tie",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store",
+      "tie",
+      "wear"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2408673013850804,
+      0.2432684755499401,
+      0.7593873645922531
+    ],
+    "material": [
+      "fabric",
+      "silk"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "transparent",
+    "floor_area": 0.058595421217776486,
+    "volume": 0.044496622495740275,
+    "surface_coverage": 0.058595421217776486,
+    "parent_room": null
+  },
+  "toaster": {
+    "class_": "toaster",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "place on",
+      "plug",
+      "store",
+      "turn off",
+      "turn on",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3173604006927249,
+      0.5297982217924246,
+      0.3342843372157852
+    ],
+    "material": [
+      "metal",
+      "plastic"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "striped",
+    "floor_area": 0.16813697595433702,
+    "volume": 0.056205557568361965,
+    "surface_coverage": 0.16813697595433702,
+    "parent_room": null,
+    "is_on": false
+  },
+  "toilet": {
+    "class_": "toilet",
+    "action_affordance": [
+      "clean",
+      "close",
+      "flush",
+      "open",
+      "sit on"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.6665359494807477,
+      0.6783832608624302,
+      0.7555377448056625
+    ],
+    "material": [
+      "ceramic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "glossy",
+    "floor_area": 0.45216683089078563,
+    "volume": 0.34162910768714755,
+    "surface_coverage": 0.45216683089078563,
+    "parent_room": null
+  },
+  "tomato": {
+    "class_": "tomato",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "chop",
+      "cook",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0010000000000000002,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "toothbrush": {
+    "class_": "toothbrush",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.02,
+      0.02
+    ],
+    "material": [
+      "plastic"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "smooth",
+    "floor_area": 0.004,
+    "volume": 8e-05,
+    "surface_coverage": 0.004,
+    "parent_room": null
+  },
+  "towel": {
+    "class_": "towel",
+    "action_affordance": [
+      "carry",
+      "dry",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "fabric"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "textured",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "tv": {
+    "class_": "tv",
+    "action_affordance": [
+      "clean",
+      "look at",
+      "move",
+      "plug",
+      "store",
+      "turn off",
+      "turn on",
+      "use",
+      "watch"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.579,
+      0.122,
+      1.135
+    ],
+    "material": [
+      "plastic",
+      "metal",
+      "glass"
+    ],
+    "tactile_texture": "grooved",
+    "visual_texture": "stained",
+    "floor_area": 0.192638,
+    "volume": 0.21864413,
+    "surface_coverage": 0.192638,
+    "parent_room": null,
+    "is_on": false
+  },
+  "umbrella": {
+    "class_": "umbrella",
+    "action_affordance": [
+      "carry",
+      "close",
+      "grab",
+      "hold",
+      "open",
+      "pick up",
+      "store",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.495,
+      0.451,
+      0.692
+    ],
+    "material": [
+      "fabric",
+      "metal",
+      "plastic"
+    ],
+    "tactile_texture": "soft",
+    "visual_texture": "textured",
+    "floor_area": 0.223245,
+    "volume": 0.15448553999999998,
+    "surface_coverage": 0.223245,
+    "parent_room": null,
+    "is_open": false
+  },
+  "vase": {
+    "class_": "vase",
+    "action_affordance": [
+      "break",
+      "carry",
+      "clean",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "move",
+      "pick up",
+      "place on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.26648285755999546,
+      0.2718135811638042,
+      0.35188506701778866
+    ],
+    "material": [
+      "ceramic",
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "glossy",
+    "floor_area": 0.07243365983214631,
+    "volume": 0.02548832324437851,
+    "surface_coverage": 0.07243365983214631,
+    "parent_room": null
+  },
+  "wardrobe": {
+    "class_": "wardrobe",
+    "action_affordance": [
+      "clean",
+      "close",
+      "move",
+      "open",
+      "place on",
+      "put in",
+      "store in",
+      "take from"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      1.0,
+      0.6,
+      2.0
+    ],
+    "material": [
+      "wood"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "grainy",
+    "floor_area": 0.6,
+    "volume": 1.2,
+    "surface_coverage": 0.6,
+    "parent_room": null,
+    "is_open": false
+  },
+  "watermelon": {
+    "class_": "watermelon",
+    "action_affordance": [
+      "bite",
+      "carry",
+      "cut",
+      "eat",
+      "grab",
+      "hold",
+      "pick up",
+      "slice",
+      "store",
+      "through away",
+      "wash"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "material": [
+      "organic"
+    ],
+    "tactile_texture": "varied",
+    "visual_texture": "natural",
+    "floor_area": 0.09,
+    "volume": 0.027,
+    "surface_coverage": 0.09,
+    "parent_room": null
+  },
+  "wine glass": {
+    "class_": "wine glass",
+    "action_affordance": [
+      "carry",
+      "clean",
+      "drink from",
+      "empty",
+      "fill",
+      "grab",
+      "hold",
+      "pick up",
+      "pour in",
+      "set on",
+      "store"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.1,
+      0.1,
+      0.2
+    ],
+    "material": [
+      "glass"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "transparent",
+    "floor_area": 0.010000000000000002,
+    "volume": 0.0020000000000000005,
+    "surface_coverage": 0.010000000000000002,
+    "parent_room": null
+  },
+  "toy": {
+    "class_": "toy",
+    "action_affordance": [
+      "carry",
+      "grab",
+      "hold",
+      "pick up",
+      "place on",
+      "play with",
+      "store",
+      "throw",
+      "use"
+    ],
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "material": [
+      "plastic",
+      "fabric"
+    ],
+    "tactile_texture": "smooth",
+    "visual_texture": "textured",
+    "floor_area": 0.04,
+    "volume": 0.008,
+    "surface_coverage": 0.04,
+    "parent_room": null
+  }
+}

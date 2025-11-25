@@ -1,0 +1,287 @@
+@prefix : <http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/namh_woo/ontologies/2025/9/untitled-ontology-10> rdf:type owl:Ontology ;
+    owl:imports <../../robot.owx> .
+
+:Darden rdf:type :Building .
+
+:Floor_A rdf:type :Storey ;
+    :storeyIsInBuilding :Darden .
+
+:Floor_B rdf:type :Storey ;
+    :storeyIsInBuilding :Darden .
+
+:Floor_C rdf:type :Storey ;
+    :storeyIsInBuilding :Darden .
+
+:bathroom_1 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Bathroom on first floor" ;
+    :spaceIsInStorey :Floor_A .
+
+:bathroom_2 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Bathroom on first floor" ;
+    :spaceIsInStorey :Floor_A .
+
+:bathroom_3 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Bathroom on second floor" ;
+    :spaceIsInStorey :Floor_B .
+
+:bathroom_4 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Bathroom on third floor" ;
+    :spaceIsInStorey :Floor_C .
+
+:bathroom_5 rdf:type :Space ;
+    :category "bathroom" ;
+    :description "Bathroom on third floor" ;
+    :spaceIsInStorey :Floor_C .
+
+:bedroom_6 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Bedroom on first floor" ;
+    :spaceIsInStorey :Floor_A .
+
+:bedroom_7 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Bedroom on first floor" ;
+    :spaceIsInStorey :Floor_A .
+
+:bedroom_8 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Bedroom on second floor" ;
+    :spaceIsInStorey :Floor_B .
+
+:bedroom_9 rdf:type :Space ;
+    :category "bedroom" ;
+    :description "Bedroom on third floor" ;
+    :spaceIsInStorey :Floor_C .
+
+:childs_room_10 rdf:type :Space ;
+    :category "childs_room" ;
+    :description "Children's playroom on third floor" ;
+    :spaceIsInStorey :Floor_C .
+
+:closet_11 rdf:type :Space ;
+    :category "closet" ;
+    :description "Storage closet on second floor" ;
+    :spaceIsInStorey :Floor_B .
+
+:closet_12 rdf:type :Space ;
+    :category "closet" ;
+    :description "Storage closet on third floor" ;
+    :spaceIsInStorey :Floor_C .
+
+:closet_13 rdf:type :Space ;
+    :category "closet" ;
+    :description "Storage closet on third floor" ;
+    :spaceIsInStorey :Floor_C .
+
+:corridor_14 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Corridor on first floor connecting rooms" ;
+    :spaceIsInStorey :Floor_A .
+
+:corridor_15 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Corridor on first floor connecting rooms" ;
+    :spaceIsInStorey :Floor_A .
+
+:corridor_16 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Corridor on second floor connecting rooms" ;
+    :spaceIsInStorey :Floor_B .
+
+:corridor_17 rdf:type :Space ;
+    :category "corridor" ;
+    :description "Corridor on third floor connecting rooms" ;
+    :spaceIsInStorey :Floor_C .
+
+:dining_room_18 rdf:type :Space ;
+    :category "dining_room" ;
+    :description "Dining room on second floor for family meals" ;
+    :spaceIsInStorey :Floor_B .
+
+:home_office_19 rdf:type :Space ;
+    :category "home_office" ;
+    :description "Home office on third floor for work and study" ;
+    :spaceIsInStorey :Floor_C .
+
+:kitchen_20 rdf:type :Space ;
+    :category "kitchen" ;
+    :description "Kitchen on second floor with cooking and dining area" ;
+    :spaceIsInStorey :Floor_B .
+
+:living_room_21 rdf:type :Space ;
+    :category "living_room" ;
+    :description "Spacious living room on first floor with comfortable seating" ;
+    :spaceIsInStorey :Floor_A .
+
+:living_room_22 rdf:type :Space ;
+    :category "living_room" ;
+    :description "Living room on second floor with entertainment area" ;
+    :spaceIsInStorey :Floor_B .
+
+:living_room_23 rdf:type :Space ;
+    :category "living_room" ;
+    :description "Living room on second floor with cozy atmosphere" ;
+    :spaceIsInStorey :Floor_B .
+
+:lobby_24 rdf:type :Space ;
+    :category "lobby" ;
+    :description "Main entrance lobby on second floor" ;
+    :spaceIsInStorey :Floor_B .
+
+:staircase_25 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Staircase connecting floors" ;
+    :spaceIsInStorey :Floor_A .
+
+:staircase_26 rdf:type :Space ;
+    :category "staircase" ;
+    :description "Staircase connecting floors" ;
+    :spaceIsInStorey :Floor_B .
+
+:storage_room_27 rdf:type :Space ;
+    :category "storage_room" ;
+    :description "Storage room on first floor" ;
+    :spaceIsInStorey :Floor_A .
+
+:storage_room_28 rdf:type :Space ;
+    :category "storage_room" ;
+    :description "Storage room on first floor" ;
+    :spaceIsInStorey :Floor_A .
+
+:door_1 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :childs_room_10 ;
+    :isDoorOf :corridor_17 .
+
+:door_2 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bathroom_4 ;
+    :isDoorOf :corridor_17 .
+
+:door_3 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_5 ;
+    :isDoorOf :closet_12 .
+
+:door_4 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bedroom_9 ;
+    :isDoorOf :home_office_19 .
+
+:door_5 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_5 ;
+    :isDoorOf :bedroom_9 .
+
+:door_6 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bedroom_9 ;
+    :isDoorOf :closet_13 .
+
+:opening_1 rdf:type :Opening ;
+    :isOpeningOf :corridor_17 ;
+    :isOpeningOf :home_office_19 .
+
+:stairs_1 rdf:type :Stairs ;
+    :isStairsOf :corridor_17 ;
+    :isStairsOf :staircase_26 .
+
+:door_7 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :living_room_22 ;
+    :isDoorOf :lobby_24 .
+
+:opening_2 rdf:type :Opening ;
+    :isOpeningOf :dining_room_18 ;
+    :isOpeningOf :living_room_22 .
+
+:opening_3 rdf:type :Opening ;
+    :isOpeningOf :dining_room_18 ;
+    :isOpeningOf :kitchen_20 .
+
+:opening_4 rdf:type :Opening ;
+    :isOpeningOf :kitchen_20 ;
+    :isOpeningOf :living_room_23 .
+
+:door_8 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :corridor_16 ;
+    :isDoorOf :dining_room_18 .
+
+:door_9 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_8 ;
+    :isDoorOf :corridor_16 .
+
+:door_10 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bathroom_3 ;
+    :isDoorOf :corridor_16 .
+
+:opening_5 rdf:type :Opening ;
+    :isOpeningOf :bedroom_8 ;
+    :isOpeningOf :closet_11 .
+
+:opening_6 rdf:type :Opening ;
+    :isOpeningOf :corridor_16 ;
+    :isOpeningOf :living_room_23 .
+
+:stairs_2 rdf:type :Stairs ;
+    :isStairsOf :corridor_16 ;
+    :isStairsOf :staircase_26 .
+
+:stairs_3 rdf:type :Stairs ;
+    :isStairsOf :dining_room_18 ;
+    :isStairsOf :staircase_25 .
+
+:door_11 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bedroom_6 ;
+    :isDoorOf :corridor_14 .
+
+:door_12 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :bedroom_7 ;
+    :isDoorOf :corridor_14 .
+
+:door_13 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :bathroom_1 ;
+    :isDoorOf :corridor_14 .
+
+:opening_7 rdf:type :Opening ;
+    :isOpeningOf :bathroom_1 ;
+    :isOpeningOf :bathroom_2 .
+
+:opening_8 rdf:type :Opening ;
+    :isOpeningOf :corridor_14 ;
+    :isOpeningOf :living_room_21 .
+
+:opening_9 rdf:type :Opening ;
+    :isOpeningOf :corridor_15 ;
+    :isOpeningOf :living_room_21 .
+
+:stairs_4 rdf:type :Stairs ;
+    :isStairsOf :corridor_15 ;
+    :isStairsOf :staircase_25 .
+
+:door_14 rdf:type :Door ;
+    :isOpenDoor "false"^^xsd:boolean ;
+    :isDoorOf :corridor_15 ;
+    :isDoorOf :storage_room_27 .
+
+:door_15 rdf:type :Door ;
+    :isOpenDoor "true"^^xsd:boolean ;
+    :isDoorOf :storage_room_27 ;
+    :isDoorOf :storage_room_28 .
+

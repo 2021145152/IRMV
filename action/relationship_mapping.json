@@ -1,0 +1,173 @@
+{
+  "description": "Mapping of asserted (base) relationships to inferred (derived) relationships",
+  "version": "1.0",
+  "mappings": {
+    "robotIsInSpace": {
+      "type": "asserted",
+      "domain": "Robot",
+      "range": "Space",
+      "description": "Base relationship: Robot's location in space",
+      "inferred_relationships": [
+        {
+          "relationship": "objectIsInSpace",
+          "reason": "robotIsInSpace is a subproperty of objectIsInSpace",
+          "type": "subproperty_inference"
+        },
+        {
+          "relationship": "isInSpace",
+          "reason": "objectIsInSpace is a subproperty of isInSpace",
+          "type": "transitive_inference"
+        },
+        {
+          "relationship": "spaceHasObject",
+          "reason": "Inverse property of objectIsInSpace",
+          "type": "inverse_inference"
+        },
+        {
+          "relationship": "hasObject",
+          "reason": "spaceHasObject is a subproperty of hasObject",
+          "type": "subproperty_inference"
+        },
+        {
+          "relationship": "isInStorey",
+          "reason": "Property chain: objectIsInSpace + spaceIsInStorey → isInStorey",
+          "type": "property_chain_inference"
+        }
+      ]
+    },
+    "artifactIsInSpace": {
+      "type": "asserted",
+      "domain": "Artifact",
+      "range": "Space",
+      "description": "Base relationship: Artifact's location in space",
+      "inferred_relationships": [
+        {
+          "relationship": "objectIsInSpace",
+          "reason": "artifactIsInSpace is a subproperty of objectIsInSpace",
+          "type": "subproperty_inference"
+        },
+        {
+          "relationship": "isInSpace",
+          "reason": "objectIsInSpace is a subproperty of isInSpace",
+          "type": "transitive_inference"
+        },
+        {
+          "relationship": "spaceHasObject",
+          "reason": "Inverse property of objectIsInSpace",
+          "type": "inverse_inference"
+        },
+        {
+          "relationship": "hasObject",
+          "reason": "spaceHasObject is a subproperty of hasObject",
+          "type": "subproperty_inference"
+        },
+        {
+          "relationship": "isInStorey",
+          "reason": "Property chain: objectIsInSpace + spaceIsInStorey → isInStorey",
+          "type": "property_chain_inference"
+        }
+      ]
+    },
+    "isInsideOf": {
+      "type": "asserted",
+      "domain": "Object",
+      "range": "Object",
+      "description": "Base relationship: Object is inside another object",
+      "inferred_relationships": [
+        {
+          "relationship": "artifactIsInSpace",
+          "reason": "Property chain: isInsideOf + artifactIsInSpace → artifactIsInSpace",
+          "type": "property_chain_inference",
+          "note": "If container is in space, contained object is also in that space"
+        }
+      ]
+    },
+    "isOntopOf": {
+      "type": "asserted",
+      "domain": "Object",
+      "range": "Object",
+      "description": "Base relationship: Object is on top of another object",
+      "inferred_relationships": [
+        {
+          "relationship": "artifactIsInSpace",
+          "reason": "Property chain: isOntopOf + artifactIsInSpace → artifactIsInSpace",
+          "type": "property_chain_inference",
+          "note": "If surface is in space, object on top is also in that space"
+        }
+      ]
+    },
+    "carries": {
+      "type": "asserted",
+      "domain": "Robot",
+      "range": "Artifact",
+      "description": "Base relationship: Robot carries artifact (derived from hasHand + isHeldBy)",
+      "inferred_relationships": [
+        {
+          "relationship": "artifactIsInSpace",
+          "reason": "Property chain: isCarriedBy (inverse of carries) + robotIsInSpace → artifactIsInSpace",
+          "type": "property_chain_inference",
+          "note": "If robot carries artifact, artifact is in same space as robot"
+        }
+      ]
+    },
+    "spaceIsInStorey": {
+      "type": "asserted",
+      "domain": "Space",
+      "range": "Storey",
+      "description": "Base relationship: Space is in a storey",
+      "inferred_relationships": [
+        {
+          "relationship": "storeyHasSpace",
+          "reason": "Inverse property of spaceIsInStorey",
+          "type": "inverse_inference"
+        }
+      ]
+    }
+  },
+  "inference_rules": {
+    "subproperty_inference": {
+      "description": "If A is a subproperty of B, then A(x,y) implies B(x,y)",
+      "examples": [
+        "robotIsInSpace → objectIsInSpace",
+        "artifactIsInSpace → objectIsInSpace",
+        "objectIsInSpace → isInSpace"
+      ]
+    },
+    "inverse_inference": {
+      "description": "If A and B are inverse properties, then A(x,y) implies B(y,x)",
+      "examples": [
+        "objectIsInSpace ↔ spaceHasObject",
+        "spaceIsInStorey ↔ storeyHasSpace"
+      ]
+    },
+    "property_chain_inference": {
+      "description": "If A + B → C is a property chain, then A(x,y) and B(y,z) implies C(x,z)",
+      "examples": [
+        "objectIsInSpace + spaceIsInStorey → isInStorey",
+        "isInsideOf + artifactIsInSpace → artifactIsInSpace",
+        "isOntopOf + artifactIsInSpace → artifactIsInSpace"
+      ]
+    }
+  },
+  "update_workflow": {
+    "description": "When updating an asserted relationship, the following inferred relationships are automatically updated",
+    "example": {
+      "asserted_change": "robotIsInSpace robot1 corridor_14 → door_9",
+      "automatically_updated": [
+        "objectIsInSpace robot1 door_9 (via subproperty)",
+        "isInSpace robot1 door_9 (via transitive subproperty)",
+        "spaceHasObject door_9 robot1 (via inverse)",
+        "hasObject door_9 robot1 (via subproperty)",
+        "isInStorey robot1 Floor_X (via property chain, if door_9 is in Floor_X)"
+      ],
+      "old_relationships_removed": [
+        "objectIsInSpace robot1 corridor_14",
+        "isInSpace robot1 corridor_14",
+        "spaceHasObject corridor_14 robot1",
+        "hasObject corridor_14 robot1",
+        "isInStorey robot1 Floor_Y (if corridor_14 was in Floor_Y)"
+      ]
+    }
+  }
+}
+

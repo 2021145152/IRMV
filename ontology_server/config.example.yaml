@@ -1,0 +1,52 @@
+# Ontology Server Configuration Example
+# Copy this file to config.yaml and update your credentials
+
+# Active environment ID (must match an environment name defined below)
+active_env: Darden
+
+# Server configuration
+server:
+  host: "0.0.0.0"
+  port: 8000
+  base_url: "http://localhost:8000"  # Base URL for API documentation and client connections
+
+# Neo4j configuration
+neo4j:
+  uri: "bolt://127.0.0.1:7687"
+  user: "neo4j"
+  password: "your_neo4j_password_here"  # CHANGE THIS
+
+# Embedding configuration for semantic search
+embedding:
+  generate: false  # Set to false to use cached embeddings (faster startup)
+  # If false, requires pre-generated embedding cache files:
+  #   - data/envs/{env_name}/static_embeddings.json
+  #   - data/envs/{env_name}/dynamic_embeddings.json
+  # When using cached embeddings, model info is read from JSON metadata
+
+  # Category embedding (object type: "chair", "kitchen", etc.)
+  category:
+    model: "text-embedding-3-small"  # Recommended for simple category names
+    dimensions: 256  # Smaller dimension for simple text
+    # Available models:
+    #   - text-embedding-3-small (Recommended: fast, cost-effective)
+    #   - text-embedding-3-large (Higher quality, more expensive)
+    #   - text-embedding-ada-002 (Legacy model, fixed 1536 dims)
+
+  # Description embedding (detailed features and context)
+  description:
+    model: "text-embedding-3-small"  # Use 3-large for better quality
+    dimensions: 512  # Larger dimension for detailed descriptions
+    # Custom values: 256 (fast), 512 (balanced), 1024 (high quality), 1536/3072 (full)
+
+# Data paths
+data:
+  root: "data"
+  ontology: "data/robot.owx"
+  envs_dir: "data/envs"
+
+# Environment definitions
+environments:
+  Darden:
+    name: "Darden"
+    description: "Multi-floor residential building"

@@ -1,0 +1,10 @@
+# PDDL Configuration
+# Domain and planner settings for task planning
+
+domain: "robot"
+
+# Planner configuration
+planner:
+  solver: "lazy_wastar"  # Options: lazy_wastar, astar, lama, etc.
+  heuristic: "ff"         # Options: ff, hmax, cea, etc.
+  weight: 2               # Weight for weighted A* (only for lazy_wastar)
